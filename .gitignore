@@ -1,0 +1,6 @@
+﻿build/
+ dist/
+ credentials
+ credentials.json
+ *.py
+ *.spec

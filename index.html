@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aemy Collective | Tactical TCG Marketplace</title>
+    <!-- Import Quicksand & Inter Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-base: #09090c;
+            --bg-panel: #121217;
+            --bg-card: #18181f;
+            --gradient-white-pink: linear-gradient(135deg, #ffffff 0%, #db91af 100%);
+            --border-accent: rgba(219, 145, 175, 0.35);
+            --accent-gold: #d4af37;
+            --accent-blue: #00e5ff;
+            --text-main: #f3f3f7;
+            --text-muted: #9e9ea8;
+
+            /* Brand colors for Socials */
+            --telegram-color: #229ed9;
+            --carousell-color: #ff334b;
+            --whatsapp-color: #25d366;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 30px;
+            box-sizing: border-box;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        /* Immersive Background Star Field */
+        .bg-stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: 
+                radial-gradient(white 1px, transparent 0),
+                radial-gradient(rgba(219, 145, 175, 0.5) 1px, transparent 0);
+            background-size: 80px 80px;
+            background-position: 0 0, 40px 40px;
+            opacity: 0.15;
+            z-index: -2;
+            pointer-events: none;
+        }
+
+        .resonance-bg {
+            position: fixed;
+            bottom: -100px;
+            right: -100px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(0, 229, 255, 0.05) 0%, rgba(219, 145, 175, 0.02) 40%, transparent 70%);
+            border-radius: 50%;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        /* Top Brand Header Section */
+        .brand-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-accent);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .brand-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        /* 8-Bit Glitch Emblem Animation Styling */
+        .brand-emblem-glitch-wrapper {
+            position: relative;
+            width: 52px;
+            height: 52px;
+        }
+
+        .brand-emblem {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: #000;
+            border: 2px solid var(--accent-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            image-rendering: pixelated;
+            box-shadow: 0 0 10px rgba(0, 229, 255, 0.4);
+            animation: terminalPulse 2.5s infinite ease-in-out;
+        }
+
+        .brand-emblem::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.5) 50%);
+            background-size: 100% 4px;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 3;
+        }
+
+        .glitch-layer-1 {
+            border-color: var(--accent-blue);
+            opacity: 0.7;
+            clip-path: polygon(0 15%, 100% 15%, 100% 40%, 0 40%);
+            animation: glitchAnim1 3s infinite linear alternate-reverse;
+            z-index: 1;
+        }
+
+        .glitch-layer-2 {
+            border-color: #db91af;
+            opacity: 0.7;
+            clip-path: polygon(0 60%, 100% 60%, 100% 85%, 0 85%);
+            animation: glitchAnim2 2.5s infinite linear alternate-reverse;
+            z-index: 2;
+        }
+
+        @keyframes terminalPulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 8px rgba(0, 229, 255, 0.3), inset 0 0 5px rgba(0, 229, 255, 0.2);
+            }
+            50% {
+                transform: scale(1.04);
+                box-shadow: 0 0 18px rgba(219, 145, 175, 0.6), inset 0 0 10px rgba(0, 229, 255, 0.4);
+            }
+        }
+
+        @keyframes glitchAnim1 {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 1px); }
+            40% { transform: translate(2px, -1px); }
+            60% { transform: translate(-1px, -2px); }
+            80% { transform: translate(2px, 2px); }
+            100% { transform: translate(0); }
+        }
+
+        @keyframes glitchAnim2 {
+            0% { transform: translate(0); }
+            15% { transform: translate(2px, -2px); }
+            35% { transform: translate(-2px, 2px); }
+            55% { transform: translate(1px, 1px); }
+            75% { transform: translate(-1px, -1px); }
+            100% { transform: translate(0); }
+        }
+
+        .brand-title-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .brand-logo {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            background: linear-gradient(135deg, #ffffff 15%, #db91af 60%, var(--accent-blue) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+        }
+
+        .beta-badge {
+            font-size: 10px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            color: var(--accent-gold);
+            border: 1px solid var(--accent-gold);
+            padding: 2px 6px;
+            border-radius: 4px;
+            background: rgba(212, 175, 55, 0.08);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* Navigation Header / Pages Bar */
+        .nav-tabs {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .nav-btn {
+            background: transparent;
+            border: 1px solid var(--border-accent);
+            color: var(--text-main);
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 600;
+            font-size: 13px;
+            padding: 8px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .nav-btn:hover, .nav-btn.active {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+            background: rgba(0, 229, 255, 0.05);
+        }
+
+        /* Page Sections Container */
+        .page-section {
+            display: none;
+        }
+
+        .page-section.active-page {
+            display: flex;
+            gap: 30px;
+        }
+
+        .full-width-page {
+            display: none;
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-panel);
+            border: 1px solid var(--border-accent);
+            border-radius: 10px;
+            padding: 40px;
+        }
+
+        .full-width-page.active-page {
+            display: block;
+        }
+
+        /* Main App Layout (Deck Builder Page) */
+        .catalog-column {
+            flex: 2;
+        }
+
+        .deck-column {
+            flex: 1;
+            position: sticky;
+            top: 30px;
+            height: fit-content;
+            background: var(--bg-panel);
+            border: 1px solid var(--border-accent);
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.5), 0 0 15px rgba(0, 229, 255, 0.03);
+        }
+
+        h2 {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            margin-top: 0;
+            background: var(--gradient-white-pink);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 19px;
+            border-bottom: 1px solid var(--border-accent);
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Catalog Grid */
+        #card-catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 16px;
+        }
+
+        /* Card Box Styling - Side-by-Side (Image Left, Larger Description Right) */
+        .card-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-accent);
+            border-radius: 8px;
+            padding: 14px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 16px;
+            position: relative;
+            transition: border-color 0.2s;
+            cursor: pointer;
+        }
+
+        .card-box:hover {
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 10px rgba(0, 229, 255, 0.1);
+        }
+
+        .card-box img {
+            width: 90px !important;
+            height: 120px !important;
+            min-width: 90px !important;
+            min-height: 120px !important;
+            max-width: 90px !important;
+            max-height: 120px !important;
+            border-radius: 6px !important;
+            object-fit: cover !important;
+            background: #000;
+            border: 1px solid var(--border-accent);
+            flex-shrink: 0;
+        }
+
+        .card-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            font-size: 12px;
+            color: var(--text-muted);
+            min-width: 0;
+        }
+
+        .card-info strong {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 600;
+            color: var(--text-main);
+            font-size: 14px;
+        }
+
+        .card-controls {
+            display: flex;
+            gap: 6px;
+            margin-top: 6px;
+            align-items: center;
+        }
+
+        .quantity-input {
+            width: 45px;
+            background: var(--bg-base);
+            border: 1px solid var(--border-accent);
+            color: white;
+            text-align: center;
+            border-radius: 4px;
+            font-size: 11px;
+            padding: 4px;
+        }
+
+        .add-btn {
+            background: linear-gradient(135deg, var(--accent-gold), #b38f27);
+            color: #000;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 11px;
+            padding: 5px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: none;
+            transition: opacity 0.2s;
+        }
+
+        .add-btn:disabled {
+            background: #273043;
+            color: var(--text-muted);
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        /* Multiple Carts / Decks Selector */
+        .cart-selector-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            background: var(--bg-base);
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border-accent);
+        }
+
+        .cart-selector-bar select {
+            background: var(--bg-panel);
+            color: var(--text-main);
+            border: 1px solid var(--border-accent);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: 'Quicksand', sans-serif;
+            cursor: pointer;
+        }
+
+        #deck-list {
+            list-style: none;
+            padding: 0;
+            max-height: 240px;
+            overflow-y: auto;
+            margin-bottom: 15px;
+        }
+
+        #deck-list li {
+            background: #15151b;
+            padding: 8px 10px;
+            margin-bottom: 6px;
+            border-radius: 6px;
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid var(--border-accent);
+        }
+
+        .deck-item-left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .deck-item-thumb {
+            width: 28px !important;
+            height: 38px !important;
+            min-width: 28px !important;
+            min-height: 38px !important;
+            object-fit: cover !important;
+            background: #000;
+            border-radius: 3px;
+            border: 1px solid var(--border-accent);
+        }
+
+        .remove-card-btn {
+            background: rgba(255, 77, 77, 0.15);
+            color: #ff6b6b;
+            border: 1px solid rgba(255, 77, 77, 0.3);
+            border-radius: 4px;
+            font-size: 11px;
+            padding: 2px 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .remove-card-btn:hover {
+            background: #ff4d4d;
+            color: white;
+        }
+
+        .total-container {
+            font-size: 15px;
+            color: var(--accent-blue);
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid var(--border-accent);
+            padding-top: 10px;
+            font-weight: 600;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"], textarea, select {
+            width: 100%;
+            padding: 10px 12px;
+            background: var(--bg-base);
+            border: 1px solid var(--border-accent);
+            border-radius: 6px;
+            color: var(--text-main);
+            box-sizing: border-box;
+            margin-top: 5px;
+            margin-bottom: 12px;
+            font-size: 13px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Themed Checkboxes & Contact Form Section */
+        .contact-pref-box {
+            background: var(--bg-base);
+            border: 1px solid var(--border-accent);
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            font-size: 12px;
+        }
+
+        .contact-option {
+            margin-bottom: 10px;
+        }
+
+        .contact-option:last-child {
+            margin-bottom: 0;
+        }
+
+        .themed-checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--text-main);
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .themed-checkbox-label input[type="checkbox"] {
+            accent-color: var(--accent-blue);
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+        }
+
+        .contact-credential-input {
+            margin-top: 5px;
+            display: none;
+        }
+
+        .format-hint {
+            font-size: 10px;
+            color: var(--text-muted);
+            margin-top: -8px;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .action-btn {
+            width: 100%;
+            background: linear-gradient(135deg, var(--accent-gold), #cca600);
+            color: #000;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 13px;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-bottom: 8px;
+        }
+
+        .secondary-btn {
+            background: transparent;
+            border: 1px solid var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        /* Static Pages Styling */
+        .info-card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .info-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-accent);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .telegram-header { color: var(--telegram-color) !important; }
+        .carousell-header { color: var(--carousell-color) !important; }
+        .whatsapp-header { color: var(--whatsapp-color) !important; }
+
+        .info-card a {
+            color: #db91af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .info-card a:hover {
+            text-decoration: underline;
+        }
+
+        .disclaimer-box {
+            background: rgba(255, 77, 77, 0.08);
+            border: 2px solid #ff4d4d;
+            border-radius: 8px;
+            padding: 18px;
+            margin-top: 25px;
+            color: #ff8080;
+            font-size: 13px;
+            line-height: 1.5;
+            font-weight: 700;
+        }
+
+        .loading-state, .error-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-stars"></div>
+    <div class="resonance-bg"></div>
+
+    <!-- Brand Header & Navigation Bar -->
+    <div class="brand-header">
+        <div class="brand-container">
+            <div class="brand-emblem-glitch-wrapper">
+                <div class="brand-emblem base-layer">✨</div>
+                <div class="brand-emblem glitch-layer-1">✨</div>
+                <div class="brand-emblem glitch-layer-2">✨</div>
+            </div>
+            <div class="brand-title-area">
+                <h1 class="brand-logo">AEMY COLLECTIVE</h1>
+                <span class="beta-badge">Beta</span>
+            </div>
+        </div>
+        <div class="nav-tabs">
+            <button class="nav-btn active" onclick="switchPage('builder')">🃏 Deck Builder</button>
+            <button class="nav-btn" onclick="switchPage('request')">📥 Request</button>
+            <button class="nav-btn" onclick="switchPage('socials')">💬 Socials</button>
+            <button class="nav-btn" onclick="switchPage('about')">📖 About Us</button>
+        </div>
+    </div>
+
+    <!-- PAGE 1: DECK BUILDER / STORE -->
+    <div id="page-builder" class="page-section active-page">
+        <div class="catalog-column">
+            <h2>📜 Card Catalog Database</h2>
+            
+            <!-- Filter Section Bar -->
+            <div class="filter-bar" style="display: flex; gap: 10px; margin-bottom: 15px; background: var(--bg-panel); padding: 10px; border-radius: 6px; border: 1px solid var(--border-accent);">
+                <input type="text" id="filter-chara" placeholder="Filter by character (e.g. Camellya)..." oninput="applyFilters()" style="margin: 0; flex: 1;" />
+                <select id="filter-type" onchange="applyFilters()" style="margin: 0; width: 180px;">
+                    <option value="">All Card Types</option>
+                    <option value="Character">Character</option>
+                    <option value="Action">Action</option>
+                </select>
+            </div>
+
+            <!-- Google Sheet Data Target Container -->
+            <div id="card-catalog">
+                <div class="loading-state">Loading card database from Google Sheets...</div>
+            </div>
+        </div>
+
+        <div class="deck-column">
+            <div class="cart-selector-bar">
+                <span style="font-size: 12px; color: var(--text-muted);">Active Deck Slot:</span>
+                <select id="cart-dropdown" onchange="switchCart(this.value)">
+                    <option value="cart1">Deck Alpha (Cart 1)</option>
+                    <option value="cart2">Tournament Build (Cart 2)</option>
+                </select>
+            </div>
+
+            <h2>⚡ Active Deck Assembly</h2>
+            <ul id="deck-list">
+                <li>Your deck is currently empty.</li>
+            </ul>
+            
+            <div class="total-container">
+                <span>Estimated Value:</span>
+                <strong style="color: var(--accent-gold);">$<span id="deck-total">0.00</span></strong>
+            </div>
+            
+            <button class="action-btn secondary-btn" onclick="alert('Deck slot saved locally!')">💾 Save Deck State</button>
+            
+            <div style="margin-top: 10px;">
+                <label for="customer-name">Collector Name</label>
+                <input type="text" id="customer-name" placeholder="Enter your name..." />
+            </div>
+
+            <label>Preferred Contact Method & Verification (Select at least one)</label>
+            <div class="contact-pref-box">
+                <!-- Telegram Option -->
+                <div class="contact-option">
+                    <label class="themed-checkbox-label">
+                        <input type="checkbox" name="contact_pref" value="telegram" onchange="toggleContactInput('telegram')"> 
+                        <span style="color: var(--telegram-color);">Telegram</span>
+                    </label>
+                    <input type="text" id="input-telegram" class="contact-credential-input" placeholder="e.g. @Aemycollective">
+                    <span class="format-hint" id="hint-telegram" style="display:none;">Format required: @username</span>
+                </div>
+
+                <!-- WhatsApp Option -->
+                <div class="contact-option">
+                    <label class="themed-checkbox-label">
+                        <input type="checkbox" name="contact_pref" value="whatsapp" onchange="toggleContactInput('whatsapp')"> 
+                        <span style="color: var(--whatsapp-color);">Whatsapp</span>
+                    </label>
+                    <input type="text" id="input-whatsapp" class="contact-credential-input" placeholder="e.g. 1234 5678">
+                    <span class="format-hint" id="hint-whatsapp" style="display:none;">Format required: 1234 5678</span>
+                </div>
+
+                <!-- Email Option -->
+                <div class="contact-option">
+                    <label class="themed-checkbox-label">
+                        <input type="checkbox" name="contact_pref" value="email" onchange="toggleContactInput('email')"> 
+                        <span style="color: var(--carousell-color);">Email</span>
+                    </label>
+                    <input type="text" id="input-email" class="contact-credential-input" placeholder="e.g. Aemycollective@email.com">
+                    <span class="format-hint" id="hint-email" style="display:none;">Format required: name@domain.com</span>
+                </div>
+            </div>
+            
+            <button id="checkout-btn" class="action-btn">💬 Send Order to Jun via Chat</button>
+        </div>
+    </div>
+
+    <!-- PAGE 2: GENERAL REQUEST / FEEDBACK -->
+    <div id="page-request" class="full-width-page">
+        <h2>📥 General Requests & Feedback</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">Looking for a specific card restock, suggesting a website feature, or dropping general feedback? Let me know below!</p>
+        
+        <label>Name & Contact</label>
+        <input type="text" id="req-name-contact" placeholder="e.g. RoverMain / @weewoo or +65 8023 0844" />
+        
+        <label>Request / Feedback</label>
+        <textarea id="req-content" rows="5" placeholder="Type your request, card inquiry, or feedback here..."></textarea>
+        
+        <button class="action-btn" onclick="submitGeneralRequest()">Submit Request / Feedback</button>
+    </div>
+
+    <!-- PAGE 3: SOCIALS -->
+    <div id="page-socials" class="full-width-page">
+        <h2>💬 Official Channels & Communities</h2>
+        <p style="color: var(--text-muted); font-size: 13px; line-height: 1.6;">
+            Below are the links to the project's socials! Expect sale listings of singles, playsets, decks as well as restocks or out of stock messages! I may even give news about myself attending play sessions or events. Please join and support me!
+        </p>
+        <div class="info-card-grid">
+            <div class="info-card">
+                <h3 class="telegram-header">✈️ Telegram Channel</h3>
+                <p style="font-size: 12px; color: var(--text-muted);">Join our channel for announcements & updates.</p>
+                <a href="https://t.me/+u38D9cV0aCgyNzVl" target="_blank">Join Telegram Channel</a>
+            </div>
+            <div class="info-card">
+                <h3 class="carousell-header">🛍️ Carousell Account</h3>
+                <p style="font-size: 12px; color: var(--text-muted);">Browse our verified storefront listings.</p>
+                <a href="#" onclick="alert('Carousell handle: @Aemycollective')">@Aemycollective</a>
+            </div>
+            <div class="info-card">
+                <h3 class="whatsapp-header">💬 WhatsApp Number</h3>
+                <p style="font-size: 12px; color: var(--text-muted);">Direct text messaging for inquiries.</p>
+                <a href="https://wa.me/6580230844" target="_blank">+65 8023 0844</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 4: ABOUT US -->
+    <div id="page-about" class="full-width-page">
+        <h2>📖 About Us</h2>
+        <p style="color: var(--text-muted); font-size: 14px; line-height: 1.6;">
+            Hello! Welcome to the Aemy Collective! (If you know you know ^^), A solo-startup project by a Wuthering Waves Enthusiast. If you ever come into contact with me, you can call me Jun.
+            <br><br>
+            💙 <strong>About me</strong><br>
+            As described above, I'm a big fan of the whole Wuthering Waves franchise and a newbie to the TCG play scene. I'm hoping to invite interested rovers to get into the TCG as well and share the same enthusiasm as me! My vision for this project is to appeal to new players who find the whole TCG scene daunting as I did myself, rather than focusing on the inevitable monetary value of the cards themselves, similar to the game, you should be able to obtain whoever you like! In this case, whichever character's playstyle you like!
+            <br><br>
+            Some things you could look forward to for this project/website is being able to view full playsets for each character that'll be purchaseable, Fully customizable decks to your liking to purchase, a section to view community decks and pre-made decks that have won in tournaments as well as someone to share your excitement about the game with!
+        </p>
+        <div class="disclaimer-box">
+            ⚠️ DISCLAIMER: I'm in no way affiliated with Kuro Games, Unicorn Cards or Wuthering Waves. This is purely a passion project and an ambitious project to connect this small but growing community! Hope to meet more rovers! ^^
+        </div>
+    </div>
+
+    <!-- Enlarged Card Details Popup Modal -->
+    <div id="card-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.85); z-index: 1000; justify-content: center; align-items: center; backdrop-filter: blur(5px);">
+        <div style="background: var(--bg-panel); border: 1px solid var(--accent-blue); border-radius: 14px; padding: 40px; width: 1050px; max-width: 92%; display: flex; gap: 40px; position: relative; box-shadow: 0 0 50px rgba(0, 229, 255, 0.3);">
+            <button onclick="closeCardModal()" style="position: absolute; top: 18px; right: 18px; background: transparent; border: none; color: var(--text-muted); font-size: 22px; cursor: pointer;">✕</button>
+            
+            <!-- LEFT COLUMN: Larger Card Image Preview -->
+            <div style="display: flex; align-items: center; justify-content: center; background: #000; border-radius: 10px; border: 1px solid var(--border-accent); padding: 20px; min-width: 360px;">
+                <img id="modal-img" src="" alt="Card Preview" style="width: 320px; height: 440px; object-fit: cover; border-radius: 8px; box-shadow: 0 6px 25px rgba(0,0,0,0.85);" />
+            </div>
+
+            <!-- RIGHT COLUMN: Metadata, Features, Skills Block, Price & Cart Action -->
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 18px; min-width: 0; justify-content: space-between;">
+                <div>
+                    <h3 id="modal-name" style="font-family: 'Quicksand', sans-serif; color: var(--text-main); margin: 0 0 12px 0; font-size: 26px;"></h3>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 14px; color: var(--text-muted);">
+                        <span><strong>ID:</strong> <span id="modal-id" style="color: var(--text-main);"></span></span>
+                        <span><strong>Type:</strong> <span id="modal-type" style="color: var(--text-main);"></span></span>
+                        <span><strong>Character:</strong> <span id="modal-chara" style="color: var(--text-main);"></span></span>
+                        <span><strong>Rarity:</strong> <span id="modal-rarity" style="color: var(--accent-gold);"></span></span>
+                        <span><strong>Cost Level:</strong> <span id="modal-cost" style="color: var(--text-main);"></span></span>
+                        <span><strong>Stock:</strong> <span id="modal-stock" style="color: var(--text-main);"></span></span>
+                    </div>
+                </div>
+
+                <!-- Block 1: Combat Skills -->
+                <div style="background: var(--bg-base); border: 1px solid var(--border-accent); border-radius: 8px; padding: 16px; font-size: 13px; display: flex; flex-direction: column; gap: 8px;">
+                    <strong style="color: var(--accent-blue); font-family: 'Quicksand', sans-serif; font-size: 14px;">Combat Skills:</strong>
+                    <div id="row-skill1"><strong>Skill 1:</strong> <span id="modal-skill1" style="color: var(--text-muted);"></span></div>
+                    <div id="row-skill2"><strong>Skill 2:</strong> <span id="modal-skill2" style="color: var(--text-muted);"></span></div>
+                    <div id="row-skill3"><strong>Skill 3:</strong> <span id="modal-skill3" style="color: var(--text-muted);"></span></div>
+                </div>
+
+                <!-- Block 2: Price & Cart Action -->
+                <div style="background: var(--bg-base); border: 1px solid var(--border-accent); border-radius: 8px; padding: 16px; display: flex; flex-direction: column; gap: 12px;">
+                    <div style="font-size: 18px; font-weight: 700; color: var(--accent-gold); display: flex; justify-content: space-between; align-items: center;">
+                        <span>Price:</span>
+                        <span id="modal-price" style="font-size: 24px;"></span>
+                    </div>
+                    <button class="action-btn" id="modal-add-btn" style="margin: 0; padding: 14px; font-size: 15px;">Add to Active Deck</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchPage(pageId) {
+            document.querySelectorAll('.page-section, .full-width-page').forEach(page => {
+                page.classList.remove('active-page');
+            });
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            const targetPage = document.getElementById(`page-${pageId}`);
+            if (targetPage) {
+                targetPage.classList.add('active-page');
+            }
+            if(event && event.currentTarget) {
+                event.currentTarget.classList.add('active');
+            }
+        }
+
+        function toggleContactInput(method) {
+            const checkbox = document.querySelector(`input[value="${method}"]`);
+            const inputField = document.getElementById(`input-${method}`);
+            const hintField = document.getElementById(`hint-${method}`);
+            if (checkbox.checked) {
+                inputField.style.display = 'block';
+                hintField.style.display = 'block';
+            } else {
+                inputField.style.display = 'none';
+                hintField.style.display = 'none';
+                inputField.value = '';
+            }
+        }
+    </script>
+    <!-- Linked JavaScript script handles live Google Sheets data binding & filtering -->
+    <script src="app.js"></script>
+</body>
+</html>
