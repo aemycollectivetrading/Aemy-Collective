@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aemy Collective | Tactical TCG Marketplace</title>
+    <title>Aemy Collective | Wuthering Waves TCG Singles & Card Catalogue</title>
     <!-- Import Quicksand & Inter Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     
@@ -29,7 +29,7 @@
             color: var(--text-main);
             font-family: 'Inter', sans-serif;
             margin: 0;
-            padding: 30px;
+            padding: 0;
             box-sizing: border-box;
             position: relative;
             min-height: 100vh;
@@ -64,14 +64,18 @@
             pointer-events: none;
         }
 
-        /* Top Brand Header Section */
+        /* Top Brand Header Section - Fully Sticky */
         .brand-header {
+            position: sticky;
+            top: 0;
+            background-color: var(--bg-base);
+            z-index: 1000;
             display: flex;
             justify-content: space-between;
             align-items: center;
             border-bottom: 1px solid var(--border-accent);
-            padding-bottom: 20px;
-            margin-bottom: 25px;
+            padding: 20px 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.6);
         }
 
         .brand-container {
@@ -215,6 +219,11 @@
             background: rgba(0, 229, 255, 0.05);
         }
 
+        /* Main Page Wrapper Padding */
+        .page-wrapper {
+            padding: 30px;
+        }
+
         /* Page Sections Container */
         .page-section {
             display: none;
@@ -223,6 +232,7 @@
         .page-section.active-page {
             display: flex;
             gap: 30px;
+            align-items: flex-start;
         }
 
         .full-width-page {
@@ -244,11 +254,24 @@
             flex: 2;
         }
 
+        /* Sticky Search & Catalog Header Area */
+        .sticky-catalog-header {
+            position: sticky;
+            top: 93px; /* Stacks precisely underneath the brand header */
+            background-color: var(--bg-base);
+            z-index: 900;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(219, 145, 175, 0.15);
+            margin-bottom: 15px;
+        }
+
         .deck-column {
             flex: 1;
             position: sticky;
-            top: 30px;
-            height: fit-content;
+            top: 95px;
+            max-height: calc(100vh - 125px); /* Restricts height to fit the screen */
+            overflow-y: auto; /* Enables smooth scrolling inside the panel if needed */
             background: var(--bg-panel);
             border: 1px solid var(--border-accent);
             border-radius: 10px;
@@ -590,7 +613,7 @@
     <div class="bg-stars"></div>
     <div class="resonance-bg"></div>
 
-    <!-- Brand Header & Navigation Bar -->
+    <!-- Brand Header & Navigation Bar (Fully Sticky) -->
     <div class="brand-header">
         <div class="brand-container">
             <div class="brand-emblem-glitch-wrapper">
@@ -611,144 +634,156 @@
         </div>
     </div>
 
-    <!-- PAGE 1: DECK BUILDER / STORE -->
-    <div id="page-builder" class="page-section active-page">
-        <div class="catalog-column">
-            <h2>📜 Card Catalog Database</h2>
-            
-            <!-- Filter Section Bar -->
-            <div class="filter-bar" style="display: flex; gap: 10px; margin-bottom: 15px; background: var(--bg-panel); padding: 10px; border-radius: 6px; border: 1px solid var(--border-accent);">
-                <input type="text" id="filter-chara" placeholder="Filter by character (e.g. Camellya)..." oninput="applyFilters()" style="margin: 0; flex: 1;" />
-                <select id="filter-type" onchange="applyFilters()" style="margin: 0; width: 180px;">
-                    <option value="">All Card Types</option>
-                    <option value="Character">Character</option>
-                    <option value="Action">Action</option>
-                </select>
-            </div>
+    <!-- Main Content Wrapper -->
+    <div class="page-wrapper">
 
-            <!-- Google Sheet Data Target Container -->
-            <div id="card-catalog">
-                <div class="loading-state">Loading card database from Google Sheets...</div>
-            </div>
-        </div>
+        <!-- PAGE 1: DECK BUILDER / STORE -->
+        <div id="page-builder" class="page-section active-page">
+            <div class="catalog-column">
+                <!-- Sticky Filter & Header Area -->
+                <div class="sticky-catalog-header">
+                    <!-- Descriptive Subtitle Section -->
+                    <div style="margin: 0 0 12px 0; padding: 10px 14px; background: var(--bg-panel); border-left: 4px solid var(--accent-blue); border-radius: 4px; color: var(--text-muted); font-size: 12px; line-height: 1.4;">
+                        Looking for singles or pre-made deck options? Build your deck here and send the order straight for ordering! Any inquiries, please reach out to me on the socials page!
+                    </div>
 
-        <div class="deck-column">
-            <div class="cart-selector-bar">
-                <span style="font-size: 12px; color: var(--text-muted);">Active Deck Slot:</span>
-                <select id="cart-dropdown" onchange="switchCart(this.value)">
-                    <option value="cart1">Deck Alpha (Cart 1)</option>
-                    <option value="cart2">Tournament Build (Cart 2)</option>
-                </select>
-            </div>
-
-            <h2>⚡ Active Deck Assembly</h2>
-            <ul id="deck-list">
-                <li>Your deck is currently empty.</li>
-            </ul>
-            
-            <div class="total-container">
-                <span>Estimated Value:</span>
-                <strong style="color: var(--accent-gold);">$<span id="deck-total">0.00</span></strong>
-            </div>
-            
-            <button class="action-btn secondary-btn" onclick="alert('Deck slot saved locally!')">💾 Save Deck State</button>
-            
-            <div style="margin-top: 10px;">
-                <label for="customer-name">Collector Name</label>
-                <input type="text" id="customer-name" placeholder="Enter your name..." />
-            </div>
-
-            <label>Preferred Contact Method & Verification (Select at least one)</label>
-            <div class="contact-pref-box">
-                <!-- Telegram Option -->
-                <div class="contact-option">
-                    <label class="themed-checkbox-label">
-                        <input type="checkbox" name="contact_pref" value="telegram" onchange="toggleContactInput('telegram')"> 
-                        <span style="color: var(--telegram-color);">Telegram</span>
-                    </label>
-                    <input type="text" id="input-telegram" class="contact-credential-input" placeholder="e.g. @Aemycollective">
-                    <span class="format-hint" id="hint-telegram" style="display:none;">Format required: @username</span>
+                    <h2>📜 Card Catalog Database</h2>
+                    <!-- Filter Section Bar -->
+                    <div class="filter-bar" style="display: flex; gap: 10px; margin-bottom: 0; background: var(--bg-panel); padding: 10px; border-radius: 6px; border: 1px solid var(--border-accent);">
+                        <input type="text" id="filter-chara" placeholder="Filter by character (e.g. Camellya)..." oninput="applyFilters()" style="margin: 0; flex: 1;" />
+                        <select id="filter-type" onchange="applyFilters()" style="margin: 0; width: 180px;">
+                            <option value="">All Card Types</option>
+                            <option value="Character">Character</option>
+                            <option value="Action">Action</option>
+                        </select>
+                    </div>
                 </div>
 
-                <!-- WhatsApp Option -->
-                <div class="contact-option">
-                    <label class="themed-checkbox-label">
-                        <input type="checkbox" name="contact_pref" value="whatsapp" onchange="toggleContactInput('whatsapp')"> 
-                        <span style="color: var(--whatsapp-color);">Whatsapp</span>
-                    </label>
-                    <input type="text" id="input-whatsapp" class="contact-credential-input" placeholder="e.g. 1234 5678">
-                    <span class="format-hint" id="hint-whatsapp" style="display:none;">Format required: 1234 5678</span>
-                </div>
-
-                <!-- Email Option -->
-                <div class="contact-option">
-                    <label class="themed-checkbox-label">
-                        <input type="checkbox" name="contact_pref" value="email" onchange="toggleContactInput('email')"> 
-                        <span style="color: var(--carousell-color);">Email</span>
-                    </label>
-                    <input type="text" id="input-email" class="contact-credential-input" placeholder="e.g. Aemycollective@email.com">
-                    <span class="format-hint" id="hint-email" style="display:none;">Format required: name@domain.com</span>
+                <!-- Google Sheet Data Target Container -->
+                <div id="card-catalog">
+                    <div class="loading-state">Loading card database from Google Sheets...</div>
                 </div>
             </div>
+
+            <div class="deck-column">
+                <div class="cart-selector-bar">
+                    <span style="font-size: 12px; color: var(--text-muted);">Active Deck Slot:</span>
+                    <select id="cart-dropdown" onchange="switchCart(this.value)">
+                        <option value="cart1">Deck Alpha (Cart 1)</option>
+                        <option value="cart2">Tournament Build (Cart 2)</option>
+                    </select>
+                </div>
+
+                <h2>⚡ Active Deck Assembly</h2>
+                <ul id="deck-list">
+                    <li>Your deck is currently empty.</li>
+                </ul>
+                
+                <div class="total-container">
+                    <span>Estimated Value:</span>
+                    <strong style="color: var(--accent-gold);">$<span id="deck-total">0.00</span></strong>
+                </div>
+                
+                <button class="action-btn secondary-btn" onclick="alert('Deck slot saved locally!')">💾 Save Deck State</button>
+                
+                <div style="margin-top: 10px;">
+                    <label for="customer-name">Collector Name</label>
+                    <input type="text" id="customer-name" placeholder="Enter your name..." />
+                </div>
+
+                <label>Preferred Contact Method (Select one)</label>
+                <div class="contact-pref-box">
+                    <!-- Telegram Option -->
+                    <div class="contact-option">
+                        <label class="themed-checkbox-label">
+                            <input type="checkbox" name="contact_pref" value="telegram" onchange="toggleContactInput('telegram')"> 
+                            <span style="color: var(--telegram-color);">Telegram (@JunHoliday)</span>
+                        </label>
+                        <input type="text" id="input-telegram" class="contact-credential-input" placeholder="e.g. @YourTelegramHandle">
+                        <span class="format-hint" id="hint-telegram" style="display:none;">Format required: @username</span>
+                    </div>
+
+                    <!-- WhatsApp Option -->
+                    <div class="contact-option">
+                        <label class="themed-checkbox-label">
+                            <input type="checkbox" name="contact_pref" value="whatsapp" onchange="toggleContactInput('whatsapp')"> 
+                            <span style="color: var(--whatsapp-color);">WhatsApp (+65 8023 0844)</span>
+                        </label>
+                        <input type="text" id="input-whatsapp" class="contact-credential-input" placeholder="e.g. 8023 0844">
+                        <span class="format-hint" id="hint-whatsapp" style="display:none;">Format required: 8023 0844</span>
+                    </div>
+
+                    <!-- Carousell Option -->
+                    <div class="contact-option">
+                        <label class="themed-checkbox-label">
+                            <input type="checkbox" name="contact_pref" value="carousell" onchange="toggleContactInput('carousell')"> 
+                            <span style="color: var(--carousell-color);">Carousell (@aemycollective)</span>
+                        </label>
+                        <input type="text" id="input-carousell" class="contact-credential-input" placeholder="e.g. @aemycollective">
+                        <span class="format-hint" id="hint-carousell" style="display:none;">Format required: @aemycollective</span>
+                    </div>
+                </div>
+                
+                <button id="checkout-btn" class="action-btn">💬 Send Order to Jun via Chat</button>
+            </div>
+        </div>
+
+        <!-- PAGE 2: GENERAL REQUEST / FEEDBACK -->
+        <div id="page-request" class="full-width-page">
+            <h2>📥 General Requests & Feedback</h2>
+            <p style="color: var(--text-muted); font-size: 13px;">Looking for a specific card restock, suggesting a website feature, or dropping general feedback? Let me know below!</p>
             
-            <button id="checkout-btn" class="action-btn">💬 Send Order to Jun via Chat</button>
+            <label>Name & Contact</label>
+            <input type="text" id="req-name-contact" placeholder="e.g. RoverMain / @weewoo or +65 8023 0844" />
+            
+            <label>Request / Feedback</label>
+            <textarea id="req-content" rows="5" placeholder="Type your request, card inquiry, or feedback here..."></textarea>
+            
+            <button class="action-btn" onclick="submitGeneralRequest()">Submit Request / Feedback</button>
         </div>
-    </div>
 
-    <!-- PAGE 2: GENERAL REQUEST / FEEDBACK -->
-    <div id="page-request" class="full-width-page">
-        <h2>📥 General Requests & Feedback</h2>
-        <p style="color: var(--text-muted); font-size: 13px;">Looking for a specific card restock, suggesting a website feature, or dropping general feedback? Let me know below!</p>
-        
-        <label>Name & Contact</label>
-        <input type="text" id="req-name-contact" placeholder="e.g. RoverMain / @weewoo or +65 8023 0844" />
-        
-        <label>Request / Feedback</label>
-        <textarea id="req-content" rows="5" placeholder="Type your request, card inquiry, or feedback here..."></textarea>
-        
-        <button class="action-btn" onclick="submitGeneralRequest()">Submit Request / Feedback</button>
-    </div>
-
-    <!-- PAGE 3: SOCIALS -->
-    <div id="page-socials" class="full-width-page">
-        <h2>💬 Official Channels & Communities</h2>
-        <p style="color: var(--text-muted); font-size: 13px; line-height: 1.6;">
-            Below are the links to the project's socials! Expect sale listings of singles, playsets, decks as well as restocks or out of stock messages! I may even give news about myself attending play sessions or events. Please join and support me!
-        </p>
-        <div class="info-card-grid">
-            <div class="info-card">
-                <h3 class="telegram-header">✈️ Telegram Channel</h3>
-                <p style="font-size: 12px; color: var(--text-muted);">Join our channel for announcements & updates.</p>
-                <a href="https://t.me/+u38D9cV0aCgyNzVl" target="_blank">Join Telegram Channel</a>
-            </div>
-            <div class="info-card">
-                <h3 class="carousell-header">🛍️ Carousell Account</h3>
-                <p style="font-size: 12px; color: var(--text-muted);">Browse our verified storefront listings.</p>
-                <a href="#" onclick="alert('Carousell handle: @Aemycollective')">@Aemycollective</a>
-            </div>
-            <div class="info-card">
-                <h3 class="whatsapp-header">💬 WhatsApp Number</h3>
-                <p style="font-size: 12px; color: var(--text-muted);">Direct text messaging for inquiries.</p>
-                <a href="https://wa.me/6580230844" target="_blank">+65 8023 0844</a>
+        <!-- PAGE 3: SOCIALS -->
+        <div id="page-socials" class="full-width-page">
+            <h2>💬 Official Channels & Communities</h2>
+            <p style="color: var(--text-muted); font-size: 13px; line-height: 1.6;">
+                Below are the links to the project's socials! Expect sale listings of singles, playsets, decks as well as restocks or out of stock messages! I may even give news about myself attending play sessions or events. Please join and support me!
+            </p>
+            <div class="info-card-grid">
+                <div class="info-card">
+                    <h3 class="telegram-header">✈️ Telegram Channel</h3>
+                    <p style="font-size: 12px; color: var(--text-muted);">Join our channel for announcements & updates.</p>
+                    <a href="https://t.me/+u38D9cV0aCgyNzVl" target="_blank">Join Telegram Channel</a>
+                </div>
+                <div class="info-card">
+                    <h3 class="carousell-header">🛍️ Carousell Account</h3>
+                    <p style="font-size: 12px; color: var(--text-muted);">Browse our verified storefront listings.</p>
+                    <a href="https://www.carousell.sg/u/aemycollective/" target="_blank">@aemycollective</a>
+                </div>
+                <div class="info-card">
+                    <h3 class="whatsapp-header">💬 WhatsApp Number</h3>
+                    <p style="font-size: 12px; color: var(--text-muted);">Direct text messaging for inquiries.</p>
+                    <a href="https://wa.me/6580230844" target="_blank">+65 8023 0844</a>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- PAGE 4: ABOUT US -->
-    <div id="page-about" class="full-width-page">
-        <h2>📖 About Us</h2>
-        <p style="color: var(--text-muted); font-size: 14px; line-height: 1.6;">
-            Hello! Welcome to the Aemy Collective! (If you know you know ^^), A solo-startup project by a Wuthering Waves Enthusiast. If you ever come into contact with me, you can call me Jun.
-            <br><br>
-            💙 <strong>About me</strong><br>
-            As described above, I'm a big fan of the whole Wuthering Waves franchise and a newbie to the TCG play scene. I'm hoping to invite interested rovers to get into the TCG as well and share the same enthusiasm as me! My vision for this project is to appeal to new players who find the whole TCG scene daunting as I did myself, rather than focusing on the inevitable monetary value of the cards themselves, similar to the game, you should be able to obtain whoever you like! In this case, whichever character's playstyle you like!
-            <br><br>
-            Some things you could look forward to for this project/website is being able to view full playsets for each character that'll be purchaseable, Fully customizable decks to your liking to purchase, a section to view community decks and pre-made decks that have won in tournaments as well as someone to share your excitement about the game with!
-        </p>
-        <div class="disclaimer-box">
-            ⚠️ DISCLAIMER: I'm in no way affiliated with Kuro Games, Unicorn Cards or Wuthering Waves. This is purely a passion project and an ambitious project to connect this small but growing community! Hope to meet more rovers! ^^
+        <!-- PAGE 4: ABOUT US -->
+        <div id="page-about" class="full-width-page">
+            <h2>📖 About Us</h2>
+            <p style="color: var(--text-muted); font-size: 14px; line-height: 1.6;">
+                Hello! Welcome to the Aemy Collective! (If you know you know ^^), A solo-startup project by a Wuthering Waves Enthusiast. If you ever come into contact with me, you can call me Jun.
+                <br><br>
+                💙 <strong>About me</strong><br>
+                As described above, I'm a big fan of the whole Wuthering Waves franchise and a newbie to the TCG play scene. I'm hoping to invite interested rovers to get into the TCG as well and share the same enthusiasm as me! My vision for this project is to appeal to new players who find the whole TCG scene daunting as I did myself, rather than focusing on the inevitable monetary value of the cards themselves, similar to the game, you should be able to obtain whoever you like! In this case, whichever character's playstyle you like!
+                <br><br>
+                Some things you could look forward to for this project/website is being able to view full playsets for each character that'll be purchaseable, Fully customizable decks to your liking to purchase, a section to view community decks and pre-made decks that have won in tournaments as well as someone to share your excitement about the game with!
+            </p>
+            <div class="disclaimer-box">
+                ⚠️ DISCLAIMER: I'm in no way affiliated with Kuro Games, Unicorn Cards or Wuthering Waves. This is purely a passion project and an ambitious project to connect this small but growing community! Hope to meet more rovers! ^^
+            </div>
         </div>
-    </div>
+
+    </div><!-- End Page Wrapper -->
 
     <!-- Enlarged Card Details Popup Modal -->
     <div id="card-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.85); z-index: 1000; justify-content: center; align-items: center; backdrop-filter: blur(5px);">

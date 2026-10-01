@@ -1,0 +1,2973 @@
+[
+    //BP01
+    //BP01-01-5 Camellya ⭐⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-01",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "2000",
+        "card_image": "Card Database/BP01/BP01-01-5.webp",
+        "card_skill1":"[Level up] Return this card to your Character deck.",
+        "card_skill2":"[Leader] The amount of damage you receive is increased by +1. All of your [Camellya] red cards have their damage increased by +1.",
+        "card_skill3":""
+    },
+    //BP01-01-4 Camellya ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-01",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "20",
+        "card_image": "Card Database/BP01/BP01-01-4.webp",
+        "card_skill1":"[Level up] Return this card to your Character deck.",
+        "card_skill2":"[Leader] The amount of damage you receive is increased by +1. All of your [Camellya] red cards have their damage increased by +1.",
+        "card_skill3":""
+    },
+    //BP01-01-3 Camellya ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-01",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "4",
+        "card_image": "Card Database/BP01/BP01-01-3.webp",
+        "card_skill1":"[Level up] Return this card to your Character deck.",
+        "card_skill2":"[Leader] The amount of damage you receive is increased by +1. All of your [Camellya] red cards have their damage increased by +1.",
+        "card_skill3":""
+    },
+    //BP01-02-4 Camellya ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-02",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "20",
+        "card_image": "Card Database/BP01/BP01-02-4.webp",
+        "card_skill1": "[Level up] Return this card to your Character deck.",
+        "card_skill2": "[Leader] Every turn, reduce the first damage you receive by -1.",
+        "card_skill3": ""
+    },
+    //BP01-02-3 Camellya ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-02",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "5",
+        "card_image": "Card Database/BP01/BP01-02-3.webp",
+        "card_skill1": "[Level up] Return this card to your Character deck.",
+        "card_skill2": "[Leader] Every turn, reduce the first damage you receive by -1.",
+        "card_skill3": ""
+    },
+    //BP01-03-2 Camellya ⭐⭐ Character
+    {
+        "card_id": "BP01-03",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "2",
+        "card_image": "Card Database/BP01/BP01-03-2.webp",
+        "card_skill1": "[Entrance]/[Level Up] You can add 1 <Basic Attack> card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-03-1 Camellya ⭐ Character
+    {
+        "card_id": "BP01-03",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-03-1.webp",
+        "card_skill1": "[Entrance]/[Level Up] You can add 1 <Basic Attack> card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-04-2 Camellya ⭐⭐ Character
+    {
+        "card_id": "BP01-04",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "2",
+        "card_image": "Card Database/BP01/BP01-04-2.webp",
+        "card_skill1": "[Leader][Resolution] When you lose a battle using a red card to a blue card, you can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-04-1 Camellya ⭐ Character
+    {
+        "card_id": "BP01-04",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-04-1.webp",
+        "card_skill1": "[Leader][Resolution] When you lose a battle using a red card to a blue card, you can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-05-2 Camellya ⭐⭐ Character
+    {
+        "card_id": "BP01-05",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-05-2.webp",
+        "card_skill1": "[Leader][Resolution] When you win the battle, you can add 1 <Basic Attack> card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-05-1 Camellya ⭐ Character
+    {
+        "card_id": "BP01-05",
+        "card_type": "Character",
+        "card_name": "Camellya",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-05-1.webp",
+        "card_skill1": "[Leader][Resolution] When you win the battle, you can add 1 <Basic Attack> card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-06-4 Shorekeeper ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-06",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "30",
+        "card_image": "Card Database/BP01/BP01-06-4.webp",
+        "card_skill1": "Twice per turn, when you recover life, you can draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-06-3 Shorekeeper ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-06",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "6",
+        "card_image": "Card Database/BP01/BP01-06-3.webp",
+        "card_skill1": "Twice per turn, when you recover life, you can draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+        //BP01-07-5 Shorekeeper ⭐⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-07",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "10000",
+        "card_image": "Card Database/BP01/BP01-07-5.webp",
+        "card_skill1": "[Leader][Start of your Battle Phase] If you have 4 or less cards in your hand, draw until you have 5 cards in your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+        //BP01-07-4 Shorekeeper ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-07",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "40",
+        "card_image": "Card Database/BP01/BP01-07-4.webp",
+        "card_skill1": "[Leader][Start of your Battle Phase] If you have 4 or less cards in your hand, draw until you have 5 cards in your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+        //BP01-07-3 Shorekeeper ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-07",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "6",
+        "card_image": "Card Database/BP01/BP01-07-3.webp",
+        "card_skill1": "[Leader][Start of your Battle Phase] If you have 4 or less cards in your hand, draw until you have 5 cards in your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+        //BP01-08-2 Shorekeeper ⭐⭐ Character
+    {
+        "card_id": "BP01-08",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-08-2.webp",
+        "card_skill1": "[Entrance]/[Level up] Add 1 <Intro Skill> card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+        //BP01-08-1 Shorekeeper ⭐ Character
+    {
+        "card_id": "BP01-08",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-08-1.webp",
+        "card_skill1": "[Entrance]/[Level up] Add 1 <Intro Skill> card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+        //BP01-09-2 Shorekeeper ⭐⭐ Character
+    {
+        "card_id": "BP01-09",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-09-2.webp",
+        "card_skill1": "[Switch] You can draw 1 card. If you do so, discard 1 card from your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+        //BP01-09-1 Shorekeeper ⭐ Character
+    {
+        "card_id": "BP01-09",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-09-1.webp",
+        "card_skill1": "[Switch] You can draw 1 card. If you do so, discard 1 card from your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+        //BP01-10-2 Shorekeeper ⭐⭐ Character
+    {
+        "card_id": "BP01-10",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-10-2.webp",
+        "card_skill1": "[Leader][Battle] When you battle using a green card, you can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "[Leader][Resolution] When you win using a green card, recover 1 life.",
+        "card_skill3": ""
+    },
+        //BP01-10-1 Shorekeeper ⭐ Character
+    {
+        "card_id": "BP01-10",
+        "card_type": "Character",
+        "card_name": "Shorekeeper",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-10-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle using a green card, you can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "[Leader][Resolution] When you win using a green card, recover 1 life.",
+        "card_skill3": ""
+    },
+    //BP01-11-4 Encore ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-11",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "16",
+        "card_image": "Card Database/BP01/BP01-11-4.webp",
+        "card_skill1": "This card can only enter through card effects.",
+        "card_skill2": "All of your [Encore] red cards gain +1 damage.",
+        "card_skill3": "[End of your turn] If this card was played in another turn, return this card to your Character deck."
+    },
+    //BP01-11-3 Encore ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-11",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "5",
+        "card_image": "Card Database/BP01/BP01-11-3.webp",
+        "card_skill1": "This card can only enter through card effects.",
+        "card_skill2": "All of your [Encore] red cards gain +1 damage.",
+        "card_skill3": "[End of your turn] If this card was played in another turn, return this card to your Character deck."
+    },
+    //BP01-12-5 Encore ⭐⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-12",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "1500",
+        "card_image": "Card Database/BP01/BP01-12-5.webp",
+        "card_skill1": "[Leader][At the end of each turn] If your opponent took damage this turn, you can add 1 [Encore] card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-12-4 Encore ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-12",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "14",
+        "card_image": "Card Database/BP01/BP01-12-4.webp",
+        "card_skill1": "[Leader][At the end of each turn] If your opponent took damage this turn, you can add 1 [Encore] card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-12-3 Encore ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-12",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "5",
+        "card_image": "Card Database/BP01/BP01-12-3.webp",
+        "card_skill1": "[Leader][At the end of each turn] If your opponent took damage this turn, you can add 1 [Encore] card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-13-2 Encore ⭐⭐ Character
+    {
+        "card_id": "BP01-13",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-13-2.webp",
+        "card_skill1": "[Entrance]/[Level Up] You can add 1 [Encore] red card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-13-1 Encore ⭐ Character
+    {
+        "card_id": "BP01-13",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-13-1.webp",
+        "card_skill1": "[Entrance]/[Level Up] You can add 1 [Encore] red card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-14-2 Encore ⭐⭐ Character
+    {
+        "card_id": "BP01-14",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-14-2.webp",
+        "card_skill1": "[Leader] Your [Encore] cards with <Heavy Attack> and <Forte Circuit> gain \"[Resolution] When you lose using a red card, at the end of this Battle Phase, deal damage to your opponent equal to this card's damage.\"",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-14-1 Encore ⭐ Character
+    {
+        "card_id": "BP01-14",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-14-1.webp",
+        "card_skill1": "[Leader] Your [Encore] cards with <Heavy Attack> and <Forte Circuit> gain \"[Resolution] When you lose using a red card, at the end of this Battle Phase, deal damage to your opponent equal to this card's damage.\"",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-15-2 Encore ⭐⭐ Character
+    {
+        "card_id": "BP01-15",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-15-2.webp",
+        "card_skill1": "[Leader] Each turn, the first [Encore] with <Basic Attack> you use gains +2 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-15-1 Encore ⭐ Character
+    {
+        "card_id": "BP01-15",
+        "card_type": "Character",
+        "card_name": "Encore",
+        "card_chara": "Encore",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-15-1.webp",
+        "card_skill1": "[Leader] Each turn, the first [Encore] with <Basic Attack> you use gains +2 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-16-5 Frover ⭐⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-16",
+        "card_type": "Character",
+        "card_name": "Rover (Female)",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "1000",
+        "card_image": "Card Database/BP01/BP01-16-5.webp",
+        "card_skill1": "[Leader][Resolution] When you win a battle using a green card against a blue card, if your hand has 7 or less cards, draw until you have 8 cards in your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-16-4 Frover ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-16",
+        "card_type": "Character",
+        "card_name": "Rover (Female)",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "15",
+        "card_image": "Card Database/BP01/BP01-16-4.webp",
+        "card_skill1": "[Leader][Resolution] When you win a battle using a green card against a blue card, if your hand has 7 or less cards, draw until you have 8 cards in your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-16-3 Frover ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-16",
+        "card_type": "Character",
+        "card_name": "Rover (Female)",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "4",
+        "card_image": "Card Database/BP01/BP01-16-3.webp",
+        "card_skill1": "[Leader][Resolution] When you win a battle using a green card against a blue card, if your hand has 7 or less cards, draw until you have 8 cards in your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-17-2 Frover ⭐⭐ Character
+    {
+        "card_id": "BP01-17",
+        "card_type": "Character",
+        "card_name": "Rover (Female)",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-17-2.webp",
+        "card_skill1": "[Entrance]/[Level up] You can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-17-1 Frover ⭐ Character
+    {
+        "card_id": "BP01-17",
+        "card_type": "Character",
+        "card_name": "Rover (Female)",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-17-1.webp",
+        "card_skill1": "[Entrance]/[Level up] You can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-18-2 Frover ⭐⭐ Character
+    {
+        "card_id": "BP01-18",
+        "card_type": "Character",
+        "card_name": "Rover (Female)",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-18-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a green card, reveal up to 2 cards from the top of your deck and add those cards to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-18-1 Frover ⭐ Character
+    {
+        "card_id": "BP01-18",
+        "card_type": "Character",
+        "card_name": "Rover (Female)",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-18-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a green card, reveal up to 2 cards from the top of your deck and add those cards to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-19-5 Mrover ⭐⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-19",
+        "card_type": "Character",
+        "card_name": "Rover (Male)",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "750",
+        "card_image": "Card Database/BP01/BP01-19-5.webp",
+        "card_skill1": "[Leader][Resolution] When you win a battle using a green card, [Follow-Up 3].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-19-4 Mrover ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-19",
+        "card_type": "Character",
+        "card_name": "Rover (Male)",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "8",
+        "card_image": "Card Database/BP01/BP01-19-4.webp",
+        "card_skill1": "[Leader][Resolution] When you win a battle using a green card, [Follow-Up 3].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-19-3 Mrover ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-19",
+        "card_type": "Character",
+        "card_name": "Rover (Male)",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "4",
+        "card_image": "Card Database/BP01/BP01-19-3.webp",
+        "card_skill1": "[Leader][Resolution] When you win a battle using a green card, [Follow-Up 3].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-20-2 Mrover ⭐⭐ Character
+    {
+        "card_id": "BP01-20",
+        "card_type": "Character",
+        "card_name": "Rover (Male)",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-20-2.webp",
+        "card_skill1": "[Entrance]/[Level up] You can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-20-1 Mrover ⭐ Character
+    {
+        "card_id": "BP01-20",
+        "card_type": "Character",
+        "card_name": "Rover (Male)",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-20-1.webp",
+        "card_skill1": "[Entrance]/[Level up] You can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-21-2 Mrover ⭐⭐ Character
+    {
+        "card_id": "BP01-21",
+        "card_type": "Character",
+        "card_name": "Rover (Male)",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-21-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a green card, reveal up to 2 cards from the top of your deck and add those cards to your hand. ",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-21-1 Mrover ⭐ Character
+    {
+        "card_id": "BP01-21",
+        "card_type": "Character",
+        "card_name": "Rover (Male)",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-21-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a green card, reveal up to 2 cards from the top of your deck and add those cards to your hand. ",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-22-5 Yangyang ⭐⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-22",
+        "card_type": "Character",
+        "card_name": "Yangyang",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "800",
+        "card_image": "Card Database/BP01/BP01-22-5.webp",
+        "card_skill1": "[End of your turn] You can discard 1 card from your hand. If you do so, switch your leader to [Yangyang].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-22-4 Yangyang ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-22",
+        "card_type": "Character",
+        "card_name": "Yangyang",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "8",
+        "card_image": "Card Database/BP01/BP01-22-4.webp",
+        "card_skill1": "[End of your turn] You can discard 1 card from your hand. If you do so, switch your leader to [Yangyang].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-22-3 Yangyang ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-22",
+        "card_type": "Character",
+        "card_name": "Yangyang",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "4",
+        "card_image": "Card Database/BP01/BP01-22-3.webp",
+        "card_skill1": "[End of your turn] You can discard 1 card from your hand. If you do so, switch your leader to [Yangyang].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-23-2 Yangyang ⭐⭐ Character
+    {
+        "card_id": "BP01-23",
+        "card_type": "Character",
+        "card_name": "Yangyang",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-23-2.webp",
+        "card_skill1": "[Entrance][Level Up] Place the top 1 card of your deck into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-23-1 Yangyang ⭐ Character
+    {
+        "card_id": "BP01-23",
+        "card_type": "Character",
+        "card_name": "Yangyang",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-23-1.webp",
+        "card_skill1": "[Entrance][Level Up] Place the top 1 card of your deck into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-24-2 Yangyang ⭐⭐ Character
+    {
+        "card_id": "BP01-24",
+        "card_type": "Character",
+        "card_name": "Yangyang",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-24-2.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a blue card, you can place 1 card from the top of your deck into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-24-1 Yangyang ⭐ Character
+    {
+        "card_id": "BP01-24",
+        "card_type": "Character",
+        "card_name": "Yangyang",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-24-2.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a blue card, you can place 1 card from the top of your deck into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-25-5 Chixia ⭐⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-25",
+        "card_type": "Character",
+        "card_name": "Chixia",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "800",
+        "card_image": "Card Database/BP01/BP01-25-5.webp",
+        "card_skill1": "[Leader][End of each Battle Phase] When you have 2 or more <Normal Attack> cards in your Action Area, deal 3 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-25-4 Chixia ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-25",
+        "card_type": "Character",
+        "card_name": "Chixia",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "8",
+        "card_image": "Card Database/BP01/BP01-25-4.webp",
+        "card_skill1": "[Leader][End of each Battle Phase] When you have 2 or more <Normal Attack> cards in your Action Area, deal 3 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-25-3 Chixia ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-25",
+        "card_type": "Character",
+        "card_name": "Chixia",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "4",
+        "card_image": "Card Database/BP01/BP01-25-3.webp",
+        "card_skill1": "[Leader][End of each Battle Phase] When you have 2 or more <Normal Attack> cards in your Action Area, deal 3 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-26-2 Chixia ⭐⭐ Character
+    {
+        "card_id": "BP01-26",
+        "card_type": "Character",
+        "card_name": "Chixia",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-26-2.webp",
+        "card_skill1": "[Entrance][Level Up] You can add 1 <Normal Attack> from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-26-1 Chixia ⭐ Character
+    {
+        "card_id": "BP01-26",
+        "card_type": "Character",
+        "card_name": "Chixia",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-26-1.webp",
+        "card_skill1": "[Entrance][Level Up] You can add 1 <Normal Attack> from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-27-2 Chixia ⭐⭐ Character
+    {
+        "card_id": "BP01-27",
+        "card_type": "Character",
+        "card_name": "Chixia",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-27-2.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a red card, deal 1 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-27-1 Chixia ⭐ Character
+    {
+        "card_id": "BP01-27",
+        "card_type": "Character",
+        "card_name": "Chixia",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-27-2.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a red card, deal 1 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-28-5 Jinhsi ⭐⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-28",
+        "card_type": "Character",
+        "card_name": "Jinhsi",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "1500",
+        "card_image": "Card Database/BP01/BP01-28-5.webp",
+        "card_skill1": "[Leader][Resolution] When you win a battle during your turn, you can reveal the top 5 cards of your deck. From those cards, add all [Jinhsi] cards to your hand. Send the remaining cards to the Trash.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-28-4 Jinhsi ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-28",
+        "card_type": "Character",
+        "card_name": "Jinhsi",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "16",
+        "card_image": "Card Database/BP01/BP01-28-4.webp",
+        "card_skill1": "[Leader][Resolution] When you win a battle during your turn, you can reveal the top 5 cards of your deck. From those cards, add all [Jinhsi] cards to your hand. Send the remaining cards to the Trash.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-28-3 Jinhsi ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-28",
+        "card_type": "Character",
+        "card_name": "Jinhsi",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "4",
+        "card_image": "Card Database/BP01/BP01-28-3.webp",
+        "card_skill1": "[Leader][Resolution] When you win a battle during your turn, you can reveal the top 5 cards of your deck. From those cards, add all [Jinhsi] cards to your hand. Send the remaining cards to the Trash.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-29-2 Jinhsi ⭐⭐ Character
+    {
+        "card_id": "BP01-29",
+        "card_type": "Character",
+        "card_name": "Jinhsi",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-29-2.webp",
+        "card_skill1": "[Leader][Resolution] When you win using a red card, deal 2 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-29-1 Jinhsi ⭐ Character
+    {
+        "card_id": "BP01-29",
+        "card_type": "Character",
+        "card_name": "Jinhsi",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-29-1.webp",
+        "card_skill1": "[Leader][Resolution] When you win using a red card, deal 2 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-30-2 Jinhsi ⭐⭐ Character
+    {
+        "card_id": "BP01-30",
+        "card_type": "Character",
+        "card_name": "Jinhsi",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-30-2.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a red card, deal 1 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-30-1 Jinhsi ⭐ Character
+    {
+        "card_id": "BP01-30",
+        "card_type": "Character",
+        "card_name": "Jinhsi",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-30-2.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a red card, deal 1 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-31-5 Sanhua ⭐⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-31",
+        "card_type": "Character",
+        "card_name": "Sanhua",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "800",
+        "card_image": "Card Database/BP01/BP01-31-5.webp",
+        "card_skill1": "[Leader][Resolution] If you win a battle using a blue card, you can switch your leader and [Follow-Up 3].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-31-4 Sanhua ⭐⭐⭐⭐ Character
+    {
+        "card_id": "BP01-31",
+        "card_type": "Character",
+        "card_name": "Sanhua",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "10",
+        "card_image": "Card Database/BP01/BP01-31-4.webp",
+        "card_skill1": "[Leader][Resolution] If you win a battle using a blue card, you can switch your leader and [Follow-Up 3].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-31-3 Sanhua ⭐⭐⭐ Character
+    {
+        "card_id": "BP01-31",
+        "card_type": "Character",
+        "card_name": "Sanhua",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "3",
+        "card_image": "Card Database/BP01/BP01-31-3.webp",
+        "card_skill1": "[Leader][Resolution] If you win a battle using a blue card, you can switch your leader and [Follow-Up 3].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-32-2 Sanhua ⭐⭐ Character
+    {
+        "card_id": "BP01-32",
+        "card_type": "Character",
+        "card_name": "Sanhua",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-32-2.webp",
+        "card_skill1": "[Entrance][Level Up] You can place 1 card from your Trash into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-32-1 Sanhua ⭐ Character
+    {
+        "card_id": "BP01-32",
+        "card_type": "Character",
+        "card_name": "Sanhua",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-32-1.webp",
+        "card_skill1": "[Entrance][Level Up] You can place 1 card from your Trash into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-33-2 Sanhua ⭐⭐ Character
+    {
+        "card_id": "BP01-33",
+        "card_type": "Character",
+        "card_name": "Sanhua",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-33-2.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a blue card, you can place 1 card from the top of your deck into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-33-1 Sanhua ⭐ Character
+    {
+        "card_id": "BP01-33",
+        "card_type": "Character",
+        "card_name": "Sanhua",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-33-2.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a blue card, you can place 1 card from the top of your deck into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-34-2 Traffic Illuminator ⭐⭐ Action Card
+    {
+        "card_id": "BP01-34",
+        "card_type": "Action",
+        "card_name": "Traffic Illuminator",
+        "card_chara": "Echo",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-34-2.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-34-1 Traffic Illuminator ⭐ Action Card
+    {
+        "card_id": "BP01-34",
+        "card_type": "Action",
+        "card_name": "Traffic Illuminator",
+        "card_chara": "Echo",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-34-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "When you have 2 or more types of <Molten Rift>, including this card, in your Resonance Area, the first <Fusion> card you use each turn gains +1 damage.",
+        "card_skill3": ""
+    },
+    //BP01-35-2 Inferno Rider ⭐⭐ Action Card
+    {
+        "card_id": "BP01-35",
+        "card_type": "Action",
+        "card_name": "Inferno Rider",
+        "card_chara": "Echo",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-35-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle, or if your opponent skipped their Battle Step.) When you deal damage to your opponent, for every 4 cards in your opponent's hand, randomly discard 1 card from your opponent's hand.",
+        "card_skill3": ""
+    },
+    //BP01-35-1 Inferno Rider ⭐ Action Card
+    {
+        "card_id": "BP01-35",
+        "card_type": "Action",
+        "card_name": "Inferno Rider",
+        "card_chara": "Echo",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-35-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle, or if your opponent skipped their Battle Step.) When you deal damage to your opponent, for every 4 cards in your opponent's hand, randomly discard 1 card from your opponent's hand.",
+        "card_skill3": ""
+    },
+    //BP01-36-2 Gulpuff ⭐⭐ Action Card
+    {
+        "card_id": "BP01-36",
+        "card_type": "Action",
+        "card_name": "Gulpuff",
+        "card_chara": "Echo",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-36-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "When you have 2 or more types of <Freezing Frost>, including this card, in your Resonance Area, the first <Glacio> card you use each turn gains +1 damage.",
+        "card_skill3": ""
+    },
+    //BP01-36-1 Gulpuff ⭐ Action Card
+    {
+        "card_id": "BP01-36",
+        "card_type": "Action",
+        "card_name": "Gulpuff",
+        "card_chara": "Echo",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-36-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "When you have 2 or more types of <Freezing Frost>, including this card, in your Resonance Area, the first <Glacio> card you use each turn gains +1 damage.",
+        "card_skill3": ""
+    },
+    //BP01-37-2 Lampylumen Myriad ⭐⭐ Action Card
+    {
+        "card_id": "BP01-37",
+        "card_type": "Action",
+        "card_name": "Lampylumen Myriad",
+        "card_chara": "Echo",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-37-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle or if your opponent skipped their Battle Step.) When you deal damage to your opponent, send 1 card from your opponent's Resonance Area to the Trash.",
+        "card_skill3": ""
+    },
+    //BP01-37-1 Lampylumen Myriad ⭐ Action Card
+    {
+        "card_id": "BP01-37",
+        "card_type": "Action",
+        "card_name": "Lampylumen Myriad",
+        "card_chara": "Echo",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-37-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle or if your opponent skipped their Battle Step.) When you deal damage to your opponent, send 1 card from your opponent's Resonance Area to the Trash.",
+        "card_skill3": ""
+    },
+    //BP01-38-2 Chirpuff ⭐⭐ Action Card
+    {
+        "card_id": "BP01-38",
+        "card_type": "Action",
+        "card_name": "Chirpuff",
+        "card_chara": "Echo",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-38-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "When you have 2 or more types of <Sierra Gale>, including this card, in your Resonance Area, the first <Aero> card you use each turn gains +1 damage.",
+        "card_skill3": ""
+    },
+    //BP01-38-1 Chirpuff ⭐ Action Card
+    {
+        "card_id": "BP01-38",
+        "card_type": "Action",
+        "card_name": "Chirpuff",
+        "card_chara": "Echo",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-38-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "When you have 2 or more types of <Sierra Gale>, including this card, in your Resonance Area, the first <Aero> card you use each turn gains +1 damage.",
+        "card_skill3": ""
+    },
+    //BP01-39-2 Feilian Beringal ⭐⭐ Action Card
+    {
+        "card_id": "BP01-39",
+        "card_type": "Action",
+        "card_name": "Feilian Beringal",
+        "card_chara": "Echo",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-39-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle or if your opponent skipped their Battle Step.) When you deal damage to your opponent, randomly send 1 card from your opponent's hand to the bottom of the deck.",
+        "card_skill3": ""
+    },
+    //BP01-39-1 Feilian Beringal ⭐ Action Card
+    {
+        "card_id": "BP01-39",
+        "card_type": "Action",
+        "card_name": "Feilian Beringal",
+        "card_chara": "Echo",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-39-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle or if your opponent skipped their Battle Step.) When you deal damage to your opponent, randomly send 1 card from your opponent's hand to the bottom of the deck.",
+        "card_skill3": ""
+    },
+    //BP01-40-2 Roseshroom ⭐⭐ Action Card
+    {
+        "card_id": "BP01-40",
+        "card_type": "Action",
+        "card_name": "Roseshroom",
+        "card_chara": "Echo",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-40-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "When you have 2 or more types of <Havoc Eclipse>, including this card, in your Resonance Area, the first <Havoc> card you use each turn gains +1 damage.",
+        "card_skill3": ""
+    },
+    //BP01-40-1 Roseshroom ⭐ Action Card
+    {
+        "card_id": "BP01-40",
+        "card_type": "Action",
+        "card_name": "Roseshroom",
+        "card_chara": "Echo",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-40-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "When you have 2 or more types of <Havoc Eclipse>, including this card, in your Resonance Area, the first <Havoc> card you use each turn gains +1 damage.",
+        "card_skill3": ""
+    },
+    //BP01-41-2 Crownless ⭐⭐ Action Card
+    {
+        "card_id": "BP01-41",
+        "card_type": "Action",
+        "card_name": "Crownless",
+        "card_chara": "Echo",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-41-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle or if your opponent skipped their Battle Step.) When you deal damage to your opponent, send the top 3 cards of your opponent's deck to their Trash.",
+        "card_skill3": ""
+    },
+    //BP01-41-1 Crownless ⭐ Action Card
+    {
+        "card_id": "BP01-41",
+        "card_type": "Action",
+        "card_name": "Crownless",
+        "card_chara": "Echo",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-41-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle or if your opponent skipped their Battle Step.) When you deal damage to your opponent, send the top 3 cards of your opponent's deck to their Trash.",
+        "card_skill3": ""
+    },
+    //BP01-42-2 Cruisewing ⭐⭐ Action Card
+    {
+        "card_id": "BP01-42",
+        "card_type": "Action",
+        "card_name": "Cruisewing",
+        "card_chara": "Echo",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-42-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "When you have 2 or more types of <Celestial Light>, including this card, in your Resonance Area, the first <Spectro> card you use each turn gains +1 damage.",
+        "card_skill3": ""
+    },
+    //BP01-42-1 Cruisewing ⭐ Action Card
+    {
+        "card_id": "BP01-42",
+        "card_type": "Action",
+        "card_name": "Cruisewing",
+        "card_chara": "Echo",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-42-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "When you have 2 or more types of <Celestial Light>, including this card, in your Resonance Area, the first <Spectro> card you use each turn gains +1 damage.",
+        "card_skill3": ""
+    },
+    //BP01-43-2 Mourning Aix ⭐⭐ Action Card
+    {
+        "card_id": "BP01-43",
+        "card_type": "Action",
+        "card_name": "Mourning Aix",
+        "card_chara": "Echo",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-43-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle or if your opponent skipped their Battle Step.) When you deal damage to your opponent, send up to 2 cards from your opponent's Trash to the bottom of their deck.",
+        "card_skill3": ""
+    },
+    //BP01-43-1 Mourning Aix ⭐ Action Card
+    {
+        "card_id": "BP01-43",
+        "card_type": "Action",
+        "card_name": "Mourning Aix",
+        "card_chara": "Echo",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-43-2.webp",
+        "card_skill1": "You can only have up to 1 <Echo> in your Action Area.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle or if your opponent skipped their Battle Step.) When you deal damage to your opponent, send up to 2 cards from your opponent's Trash to the bottom of their deck.",
+        "card_skill3": ""
+    },
+    //BP01-44-2 Camellya Basic ⭐⭐ Action Card
+    {
+        "card_id": "BP01-44",
+        "card_type": "Action",
+        "card_name": "Burgeoning - Basic Attack",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-44-2.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-44-1 Camellya Basic ⭐ Action Card
+    {
+        "card_id": "BP01-44",
+        "card_type": "Action",
+        "card_name": "Burgeoning - Basic Attack",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-44-2.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-45-2 Camellya Dodge Counter ⭐⭐ Action Card
+    {
+        "card_id": "BP01-45",
+        "card_type": "Action",
+        "card_name": "Burgeoning - Dodge Counter",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-45-2.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-45-1 Camellya Dodge Counter ⭐ Action Card
+    {
+        "card_id": "BP01-45",
+        "card_type": "Action",
+        "card_name": "Burgeoning - Dodge Counter",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-45-1.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-46-2 Camellya Skill 1 ⭐⭐ Action Card
+    {
+        "card_id": "BP01-46",
+        "card_type": "Action",
+        "card_name": "Everblooming",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-46-2.webp",
+        "card_skill1": "[Combo] Switch your leader. If [Camellya] was switched, level up your [Camellya].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-46-1 Camellya Skill 1 ⭐ Action Card
+    {
+        "card_id": "BP01-46",
+        "card_type": "Action",
+        "card_name": "Everblooming",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-46-2.webp",
+        "card_skill1": "[Combo] Switch your leader. If [Camellya] was switched, level up your [Camellya].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-47-2 Camellya Heavy ⭐⭐ Action Card
+    {
+        "card_id": "BP01-47",
+        "card_type": "Action",
+        "card_name": "Burgeoning - Heavy Attack",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-47-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-47-1 Camellya Heavy ⭐ Action Card
+    {
+        "card_id": "BP01-47",
+        "card_type": "Action",
+        "card_name": "Burgeoning - Heavy Attack",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-47-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-48-2 Camellya Skill 2 ⭐⭐ Action Card
+    {
+        "card_id": "BP01-48",
+        "card_type": "Action",
+        "card_name": "Crimson Blossom",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-48-2.webp",
+        "card_skill1": "[Leader Skill][Battle] Level up your [Camellya].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-48-1 Camellya Skill 2 ⭐ Action Card
+    {
+        "card_id": "BP01-48",
+        "card_type": "Action",
+        "card_name": "Crimson Blossom",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-48-1.webp",
+        "card_skill1": "[Leader Skill][Battle] Level up your [Camellya].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-49-3 Camellya Ult ⭐⭐⭐ Action Card
+    {
+        "card_id": "BP01-49",
+        "card_type": "Action",
+        "card_name": "Fervor Effloresent",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "30",
+        "card_image": "Card Database/BP01/BP01-49-3.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-50-2 Camellya Basic Attack 2 ⭐⭐ Action Card
+    {
+        "card_id": "BP01-50",
+        "card_type": "Action",
+        "card_name": "Vining Waltz",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-50-2.webp",
+        "card_skill1": "[Combo] If you have 2 or more [Basic Attack] cards in your Action Area, this card gains +1 Damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-50-1 Camellya Basic Attack 2 ⭐ Action Card
+    {
+        "card_id": "BP01-50",
+        "card_type": "Action",
+        "card_name": "Vining Waltz",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-50-1.webp",
+        "card_skill1": "[Combo] If you have 2 or more [Basic Attack] cards in your Action Area, this card gains +1 Damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-51-2 Camellya Basic Attack 3 ⭐⭐ Action Card
+    {
+        "card_id": "BP01-51",
+        "card_type": "Action",
+        "card_name": "Vining Ronde",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-51-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-51-1 Camellya Basic Attack 3 ⭐ Action Card
+    {
+        "card_id": "BP01-51",
+        "card_type": "Action",
+        "card_name": "Vining Ronde",
+        "card_chara": "Camellya",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-51-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-52-2 Shorekeeper Basic Attack ⭐⭐ Action Card
+    {
+        "card_id": "BP01-52",
+        "card_type": "Action",
+        "card_name": "Origin Calculus - Basic Attack",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-52-2.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-52-1 Shorekeeper Basic Attack ⭐ Action Card
+    {
+        "card_id": "BP01-52",
+        "card_type": "Action",
+        "card_name": "Origin Calculus - Basic Attack",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-52-2.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-53-2 Shorekeeper Dodge ⭐⭐ Action Card
+    {
+        "card_id": "BP01-53",
+        "card_type": "Action",
+        "card_name": "Origin Calculus - Dodge",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-53-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, recover 1 life.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-53-1 Shorekeeper Dodge ⭐ Action Card
+    {
+        "card_id": "BP01-53",
+        "card_type": "Action",
+        "card_name": "Origin Calculus - Dodge",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-53-1.webp",
+        "card_skill1": "[Resolution] If you win the battle, recover 1 life.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-54-2 Shorekeeper Intro Skill ⭐⭐ Action Card
+    {
+        "card_id": "BP01-54",
+        "card_type": "Action",
+        "card_name": "Enlightenment",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-54-2.webp",
+        "card_skill1": "[Combo] Switch your leader. If [The Shorekeeper] was switched, recover 1 life.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-54-1 Shorekeeper Intro Skill ⭐ Action Card
+    {
+        "card_id": "BP01-54",
+        "card_type": "Action",
+        "card_name": "Enlightenment",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-54-2.webp",
+        "card_skill1": "[Combo] Switch your leader. If [The Shorekeeper] was switched, recover 1 life.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-55-2 Shorekeeper Heavy Attack ⭐⭐ Action Card
+    {
+        "card_id": "BP01-55",
+        "card_type": "Action",
+        "card_name": "Origin Calculus - Heavy Attack",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-55-2.webp",
+        "card_skill1": "If you have more life than your opponent, this card gains +1 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-55-1 Shorekeeper Heavy Attack ⭐ Action Card
+    {
+        "card_id": "BP01-55",
+        "card_type": "Action",
+        "card_name": "Origin Calculus - Heavy Attack",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-55-2.webp",
+        "card_skill1": "If you have more life than your opponent, this card gains +1 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-56-2 Shorekeeper Skill 2 ⭐⭐ Action Card
+    {
+        "card_id": "BP01-56",
+        "card_type": "Action",
+        "card_name": "Chaos Theory",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-56-2.webp",
+        "card_skill1": "[Leader Skill][Resolution] If you win the battle, level up your [The Shorekeeper].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-56-1 Shorekeeper Skill 2 ⭐ Action Card
+    {
+        "card_id": "BP01-56",
+        "card_type": "Action",
+        "card_name": "Chaos Theory",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-56-2.webp",
+        "card_skill1": "[Leader Skill][Resolution] If you win the battle, level up your [The Shorekeeper].",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-57-3 Shorekeeper Ult ⭐⭐⭐ Action Card
+    {
+        "card_id": "BP01-57",
+        "card_type": "Action",
+        "card_name": "End Loop",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "100",
+        "card_image": "Card Database/BP01/BP01-57-3.webp",
+        "card_skill1": "[Leader Skill][Battle] During this turn, the next 2 <IntroSkill> cards you use gain \"[Combo] Draw 1 card.\".",
+        "card_skill2": "[Resolution] If you won this battle, recover 1 life, and [Follow-Up 8].",
+        "card_skill3": ""
+    },
+    //BP01-58-2 Shorekeeper Skill 3 ⭐⭐ Action Card
+    {
+        "card_id": "BP01-58",
+        "card_type": "Action",
+        "card_name": "Unbound Form",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-58-2.webp",
+        "card_skill1": "[Resolution] If you won the battle, draw 2 cards.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle, or if your opponent skipped their Battle Step.) [Resolution] If you had lost the battle and your leader is [The Shorekeeper], during this turn, your opponent cannot combo.",
+        "card_skill3": ""
+    },
+    //BP01-58-1 Shorekeeper Skill 3 ⭐ Action Card
+    {
+        "card_id": "BP01-58",
+        "card_type": "Action",
+        "card_name": "Unbound Form",
+        "card_chara": "Shorekeeper",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-58-1.webp",
+        "card_skill1": "[Resolution] If you won the battle, draw 2 cards.",
+        "card_skill2": "[Advantage] (This skill comes into effect if in the last turn you had won the battle, or if your opponent skipped their Battle Step.) [Resolution] If you had lost the battle and your leader is [The Shorekeeper], during this turn, your opponent cannot combo.",
+        "card_skill3": ""
+    },
+    //BP01-59-2 Encore Basic Attack ⭐⭐ Action Card
+    {
+        "card_id": "BP01-59",
+        "card_type": "Action",
+        "card_name": "Wooly Attack - Basic Attack",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-59-2.webp",
+        "card_skill1": "[Advantage] (This skill comes into effect if in the last turn you had won the battle, or if your opponent skipped their Battle Step.) [Resolution] If your leader is [Encore], this card's Speed becomes 10.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-59-1 Encore Basic Attack ⭐ Action Card
+    {
+        "card_id": "BP01-59",
+        "card_type": "Action",
+        "card_name": "Wooly Attack - Basic Attack",
+        "card_chara": "Encore",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-59-1.webp",
+        "card_skill1": "[Advantage] (This skill comes into effect if in the last turn you had won the battle, or if your opponent skipped their Battle Step.) [Resolution] If your leader is [Encore], this card's Speed becomes 10.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-60-2 Encore Heavy Attack ⭐⭐ Action Card
+    {
+        "card_id": "BP01-60",
+        "card_type": "Action",
+        "card_name": "Wooly Attack - Heavy Attack",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-60-2.webp",
+        "card_skill1": "When you deal damage to your opponent, if your leader is [Encore], draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-60-1 Encore Heavy Attack ⭐ Action Card
+    {
+        "card_id": "BP01-60",
+        "card_type": "Action",
+        "card_name": "Wooly Attack - Heavy Attack",
+        "card_chara": "Encore",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-60-2.webp",
+        "card_skill1": "When you deal damage to your opponent, if your leader is [Encore], draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-61-2 Encore Forte Circuit ⭐⭐ Action Card
+    {
+        "card_id": "BP01-61",
+        "card_type": "Action",
+        "card_name": "Black and White Woolies",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-61-2.webp",
+        "card_skill1": "When you deal damage to your opponent, if your leader is [Encore], draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-61-1 Encore Forte Circuit ⭐ Action Card
+    {
+        "card_id": "BP01-61",
+        "card_type": "Action",
+        "card_name": "Black and White Woolies",
+        "card_chara": "Encore",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-61-1.webp",
+        "card_skill1": "When you deal damage to your opponent, if your leader is [Encore], draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-62-3 Encore Liberation ⭐⭐⭐ Action Card
+    {
+        "card_id": "BP01-62",
+        "card_type": "Action",
+        "card_name": "Cosmos Rave",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "35",
+        "card_image": "Card Database/BP01/BP01-62-3.webp",
+        "card_skill1": "[Advantage] The card's cost is reduced by -1.",
+        "card_skill2": "[Battle] Place a Level 2 [Encore] from your Character Deck onto your Encore (This is treated as a Level Up). Switch your leader to [Encore].",
+        "card_skill3": ""
+    },
+    //BP01-63-2 Encore Intro Skill ⭐⭐ Action Card
+    {
+        "card_id": "BP01-63",
+        "card_type": "Action",
+        "card_name": "Woolies Helpers",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-63-2.webp",
+        "card_skill1": "[Combo] Switch your leader. If [Encore] was switched, add 1 [Encore] red card other than <Intro Skill> from the Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-63-1 Encore Intro Skill ⭐ Action Card
+    {
+        "card_id": "BP01-63",
+        "card_type": "Action",
+        "card_name": "Woolies Helpers",
+        "card_chara": "Encore",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-63-2.webp",
+        "card_skill1": "[Combo] Switch your leader. If [Encore] was switched, add 1 [Encore] red card other than <Intro Skill> from the Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-64-2 Encore Dodge ⭐⭐ Action Card
+    {
+        "card_id": "BP01-64",
+        "card_type": "Action",
+        "card_name": "Wooly Attack - Dodge",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-64-2.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-64-1 Encore Dodge ⭐ Action Card
+    {
+        "card_id": "BP01-64",
+        "card_type": "Action",
+        "card_name": "Wooly Attack - Dodge",
+        "card_chara": "Encore",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-64-2.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-65-2 Frover Basic Attack ⭐⭐ Action Card
+    {
+        "card_id": "BP01-65",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Basic Attack",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-65-2.webp",
+        "card_skill1": "[Combo] You can discard 1 card from your hand. If you do so, this card gains +1 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-65-1 Frover Basic Attack ⭐ Action Card
+    {
+        "card_id": "BP01-65",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Basic Attack",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-65-2.webp",
+        "card_skill1": "[Combo] You can discard 1 card from your hand. If you do so, this card gains +1 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-66-2 Frover Midair Attack ⭐⭐ Action Card
+    {
+        "card_id": "BP01-66",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Midair Attack",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-66-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-66-1 Frover Basic Attack ⭐ Action Card
+    {
+        "card_id": "BP01-66",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Midair Attack",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-66-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-67-2 Mrover Basic Attack ⭐⭐ Action Card
+    {
+        "card_id": "BP01-67",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Basic Attack",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-67-2.webp",
+        "card_skill1": "[Combo] You can discard 1 card from your hand. If you do so, this card gains +1 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-67-1 Mrover Basic Attack ⭐ Action Card
+    {
+        "card_id": "BP01-67",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Basic Attack",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-67-2.webp",
+        "card_skill1": "[Combo] You can discard 1 card from your hand. If you do so, this card gains +1 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-68-2 Mrover Midair Attack ⭐⭐ Action Card
+    {
+        "card_id": "BP01-68",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Basic Attack",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-68-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-68-1 Mrover Midair Attack ⭐ Action Card
+    {
+        "card_id": "BP01-68",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Basic Attack",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-68-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-69-2 Yangyang Dodge ⭐⭐ Action Card
+    {
+        "card_id": "BP01-69",
+        "card_type": "Action",
+        "card_name": "Feather as Blade - Dodge",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-69-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, [Follow-up 1].",
+        "card_skill2": "[End of each Battle Phase] If your leader is [Yangyang], you can pay 1 cost to add this card back to your hand.",
+        "card_skill3": ""
+    },
+    //BP01-69-1 Yangyang Dodge ⭐ Action Card
+    {
+        "card_id": "BP01-69",
+        "card_type": "Action",
+        "card_name": "Feather as Blade - Dodge",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-69-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, [Follow-up 1].",
+        "card_skill2": "[End of each Battle Phase] If your leader is [Yangyang], you can pay 1 cost to add this card back to your hand.",
+        "card_skill3": ""
+    },
+    //BP01-70-2 Yangyang Resonance Skill 1 ⭐⭐ Action Card
+    {
+        "card_id": "BP01-70",
+        "card_type": "Action",
+        "card_name": "Zephyr Domain",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-70-2.webp",
+        "card_skill1": "[Leader Skill][Resolution] If you won this battle, add 1 blue card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-70-1 Yangyang Resonance Skill 1 ⭐ Action Card
+    {
+        "card_id": "BP01-70",
+        "card_type": "Action",
+        "card_name": "Zephyr Domain",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-70-2.webp",
+        "card_skill1": "[Leader Skill][Resolution] If you won this battle, add 1 blue card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-71-2 Yangyang Midair Attack ⭐⭐ Action Card
+    {
+        "card_id": "BP01-71",
+        "card_type": "Action",
+        "card_name": "Echoing Feathers",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-71-2.webp",
+        "card_skill1": "[Combo] During this turn, if the card used immediately before this was an <Aero> card, send the top 1 card of your deck to your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-71-1 Yangyang Midair Attack ⭐ Action Card
+    {
+        "card_id": "BP01-70",
+        "card_type": "Action",
+        "card_name": "Echoing Feathers",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-71-1.webp",
+        "card_skill1": "[Combo] During this turn, if the card used immediately before this was an <Aero> card, send the top 1 card of your deck to your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-72-2 Chixia Forte Circuit ⭐⭐ Action Card
+    {
+        "card_id": "BP01-72",
+        "card_type": "Action",
+        "card_name": "DAKA DAKA!",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-72-2.webp",
+        "card_skill1": "[Leader Skill][Advantage] (This skill comes into effect if in the last turn you had won the battle, or if your opponent skipped their Battle Step.) [Battle] Add 1 <Normal Attack> or <Resonance Liberation> card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-72-1 Chixia Forte Circuit ⭐ Action Card
+    {
+        "card_id": "BP01-72",
+        "card_type": "Action",
+        "card_name": "DAKA DAKA!",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-72-1.webp",
+        "card_skill1": "[Leader Skill][Advantage] (This skill comes into effect if in the last turn you had won the battle, or if your opponent skipped their Battle Step.) [Battle] Add 1 <Normal Attack> or <Resonance Liberation> card from your Trash to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-73-2 Jinshi Resonance Skill ⭐⭐ Action Card
+    {
+        "card_id": "BP01-73",
+        "card_type": "Action",
+        "card_name": "Overflowing Radiance",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-73-2.webp",
+        "card_skill1": "[Leader Skill][Resolution] If you win the battle, you can add 1 [Incarnation] from your deck to your hand. After that, shuffle your deck.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-73-1 Jinshi Resonance Skill ⭐ Action Card
+    {
+        "card_id": "BP01-73",
+        "card_type": "Action",
+        "card_name": "Overflowing Radiance",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-73-1.webp",
+        "card_skill1": "[Leader Skill][Resolution] If you win the battle, you can add 1 [Incarnation] from your deck to your hand. After that, shuffle your deck.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-74-2 Jinshi Forte Circuit ⭐⭐ Action Card
+    {
+        "card_id": "BP01-74",
+        "card_type": "Action",
+        "card_name": "Illuminous Epiphany",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-74-2.webp",
+        "card_skill1": "[Leader Skill][Combo] For each card in your Action Area, this card gains +1 damage.",
+        "card_skill2": "[Battle]/[Combo] During this turn, you cannot combo.",
+        "card_skill3": ""
+    },
+    //BP01-74-1 Jinshi Forte Circuit⭐ Action Card
+    {
+        "card_id": "BP01-74",
+        "card_type": "Action",
+        "card_name": "Illuminous Epiphany",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-74-1.webp",
+        "card_skill1": "[Leader Skill][Combo] For each card in your Action Area, this card gains +1 damage.",
+        "card_skill2": "[Battle]/[Combo] During this turn, you cannot combo.",
+        "card_skill3": ""
+    },
+    //BP01-75-2 Jinshi Normal Attack ⭐⭐ Action Card
+    {
+        "card_id": "BP01-75",
+        "card_type": "Action",
+        "card_name": "Slash of Breaking Dawn - Heavy Attack",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-75-2.webp",
+        "card_skill1": "[Resolution] If you win the battle, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-75-1 Jinshi Normal Attack ⭐ Action Card
+    {
+        "card_id": "BP01-75",
+        "card_type": "Action",
+        "card_name": "Slash of Breaking Dawn - Heavy Attack",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-75-1.webp",
+        "card_skill1": "[Resolution] If you win the battle, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-76-2 Sanhua Dodge ⭐⭐ Action Card
+    {
+        "card_id": "BP01-76",
+        "card_type": "Action",
+        "card_name": "Freezing Thorns",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-76-2.webp",
+        "card_skill1": "[Battle] You can switch your leader to Sanhua.",
+        "card_skill2": "[Resolution] If you win the battle and your leader is [Sanhua], level up your [Sanhua].",
+        "card_skill3": ""
+    },
+    //BP01-76-1 Sanhua Dodge ⭐ Action Card
+    {
+        "card_id": "BP01-76",
+        "card_type": "Action",
+        "card_name": "Freezing Thorns",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "0.5",
+        "card_image": "Card Database/BP01/BP01-76-1.webp",
+        "card_skill1": "[Battle] You can switch your leader to Sanhua.",
+        "card_skill2": "[Resolution] If you win the battle and your leader is [Sanhua], level up your [Sanhua].",
+        "card_skill3": ""
+    },
+    //BP01-77-2 Sanhua Forte Circuit ⭐⭐ Action Card
+    {
+        "card_id": "BP01-77",
+        "card_type": "Action",
+        "card_name": "Ice Burst",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-77-2.webp",
+        "card_skill1": "[Leader Skill][Resolution] If you win the battle and you have [Sanhua] cards in your Resonance Area, you can switch your leader.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-77-1 Sanhua Forte Circuit ⭐ Action Card
+    {
+        "card_id": "BP01-77",
+        "card_type": "Action",
+        "card_name": "Ice Burst",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/BP01/BP01-77-1.webp",
+        "card_skill1": "[Leader Skill][Resolution] If you win the battle and you have [Sanhua] cards in your Resonance Area, you can switch your leader.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01 Cards
+    //SD01-01-3 Frover ⭐⭐⭐ Character Card
+    {
+        "card_id": "SD01-01",
+        "card_type": "Character",
+        "card_name": "Rover (Female)",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-01-3.webp",
+        "card_skill1": "[Start of your turn] Draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-02-1 Frover ⭐ Character Card
+    {
+        "card_id": "SD01-02",
+        "card_type": "Character",
+        "card_name": "Rover (Female)",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-02-1.webp",
+        "card_skill1": "[Leader][Resolution] When you lose a battle using a green card to a red card, you can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-18-1 Frover ⭐ Character Card
+    {
+        "card_id": "BP01-18",
+        "card_type": "Character",
+        "card_name": "Rover (Female)",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/BP01-18-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a green card, reveal up to 2 cards from the top of your deck and add those cards to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-03-3 Yangyang ⭐⭐⭐ Character Card
+    {
+        "card_id": "SD01-03",
+        "card_type": "Character",
+        "card_name": "Yangyang",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD03-3.webp",
+        "card_skill1": "[Leader][Resolution] When your opponent battles using a red card, your opponent can pay 1 cost. If they do not, your opponent takes 3 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-04-1 Yangyang ⭐ Character Card
+    {
+        "card_id": "SD01-04",
+        "card_type": "Character",
+        "card_name": "Yangyang",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-04-1.webp",
+        "card_skill1": "[Leader][Resolution] When you lose a battle using a blue card to a green card, you can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-24-1 Yangyang ⭐ Character Card
+    {
+        "card_id": "BP01-24",
+        "card_type": "Character",
+        "card_name": "Yangyang",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/BP01-24-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a blue card, you can place 1 card from the top of your deck into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-05-3 Chixia ⭐⭐⭐ Character Card
+    {
+        "card_id": "SD01-05",
+        "card_type": "Character",
+        "card_name": "Chixia",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-05-3.webp",
+        "card_skill1": "Your [Chixia] cards with [Leader Skill] gain +3 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-06-1 Chixia ⭐ Character Card
+    {
+        "card_id": "SD01-06",
+        "card_type": "Character",
+        "card_name": "Chixia",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-06-1.webp",
+        "card_skill1": "[Leader][Resolution] When you lose a battle using a red card to a blue card, you can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-27-1 Chixia ⭐ Character Card
+    {
+        "card_id": "BP01-27",
+        "card_type": "Character",
+        "card_name": "Chixia",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/BP01-27-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a red card, deal 1 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-07-1 Chixia Basic Attack ⭐ Action Card
+    {
+        "card_id": "SD01-07",
+        "card_type": "Action",
+        "card_name": "POW POW - Basic Attack",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-07-1.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-08-1 Chixia Dodge Counter ⭐ Action Card
+    {
+        "card_id": "SD01-08",
+        "card_type": "Action",
+        "card_name": "POW POW - Dodge Counter",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-08-1.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-09-1 Chixia Intro Skill ⭐ Action Card
+    {
+        "card_id": "SD01-09",
+        "card_type": "Action",
+        "card_name": "Grand Entrance",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-09-1.webp",
+        "card_skill1": "[Combo] Switch your leader. If [Chixia] was switched, this card gains +2 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-10-1 Chixia Resonance Skill ⭐ Action Card
+    {
+        "card_id": "SD01-10",
+        "card_type": "Action",
+        "card_name": "Whizzing Fight Spirit",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-10-1.webp",
+        "card_skill1": "[Leader Skill](This card can only be used by the designated character)",
+        "card_skill2": "[Resolution] When you lose a battle to a blue card, you can add this card back to your hand.",
+        "card_skill3": ""
+    },
+    //SD01-11-1 Chixia Liberation ⭐ Action Card
+    {
+        "card_id": "SD01-11",
+        "card_type": "Action",
+        "card_name": "Blazing Flames",
+        "card_chara": "Chixia",
+        "card_rarity": "⭐",
+        "card_costlevel": "3",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-11-1.webp",
+        "card_skill1": "[Leader Skill](This card can only be used by the designated character)",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-12-1 Yangyang Basic Attack ⭐ Action Card
+    {
+        "card_id": "SD01-12",
+        "card_type": "Action",
+        "card_name": "Feather as Blade - Basic Attack",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-12-1.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-13-1 Yangyang Dodge ⭐ Action Card
+    {
+        "card_id": "SD01-13",
+        "card_type": "Action",
+        "card_name": "Feather as Blade - Dodge",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-13-1.webp",
+        "card_skill1": "[Resolution] When you win the battle, [Follow-Up 2](During this turn, the number of times you can combo is increased by +2).",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-14-1 Yangyang Intro Skill ⭐ Action Card
+    {
+        "card_id": "SD01-14",
+        "card_type": "Action",
+        "card_name": "Cerulean Song",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-14-1.webp",
+        "card_skill1": "[Combo] Switch your leader. If [Yangyang] was switched, send 1 card from the top of your deck to your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-15-1 Yangyang Movement ⭐ Action Card
+    {
+        "card_id": "SD01-15",
+        "card_type": "Action",
+        "card_name": "Jump",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-15-1.webp",
+        "card_skill1": "[Resolution] When you win the battle, draw 1 card and [Follow-Up 1](During this turn, the number of times you can combo is increased by +1).",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-16-1 Yangyang Liberation ⭐ Action Card
+    {
+        "card_id": "SD01-16",
+        "card_type": "Action",
+        "card_name": "Wind Spirals",
+        "card_chara": "Yangyang",
+        "card_rarity": "⭐",
+        "card_costlevel": "2",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-16-1.webp",
+        "card_skill1": "[Leader Skill](This card can only be used by the designated character)",
+        "card_skill2": "[Resolution] When you win the battle, during the next turn, the cost of your opponent's red cards is increased by +1.",
+        "card_skill3": ""
+    },
+    //SD01-17-1 Female Rover Basic Attack ⭐ Action Card
+    {
+        "card_id": "SD01-17",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Basic Attack",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-17-1.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-18-1 Female Rover Dodge ⭐ Action Card
+    {
+        "card_id": "SD01-18",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Dodge",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-18-1.webp",
+        "card_skill1": "[Resolution] When you win the battle, draw 1 card, then discard 1 card from your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-19-1 Female Rover Intro Skill⭐ Action Card
+    {
+        "card_id": "SD01-19",
+        "card_type": "Action",
+        "card_name": "Waveshock",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-19-1.webp",
+        "card_skill1": "[Combo] Switch your leader. If [Rover (Female)] was switched, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-20-1 Female Rover Terminal Module ⭐ Action Card
+    {
+        "card_id": "SD01-21",
+        "card_type": "Action",
+        "card_name": "Scan",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-20-1.webp",
+        "card_skill1": "[Resolution] When you win the battle, draw 1 card, then look at your opponent's hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-21-1 Female Rover Terminal Module ⭐ Action Card
+    {
+        "card_id": "SD01-21",
+        "card_type": "Action",
+        "card_name": "Grappling Hook",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-21-1.webp",
+        "card_skill1": "[Resolution] When you win the battle, [Follow-Up 2](During this turn, the number of times you can combo is increased by +2).",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-22-1 Female Rover Resonance Skill⭐ Action Card
+    {
+        "card_id": "SD01-22",
+        "card_type": "Action",
+        "card_name": "Resonating Slashes",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-22-1.webp",
+        "card_skill1": "[Leader Skill] (This card can only be used when your Leader is the specified character)",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD01-23-1 Female Rover Liberation ⭐ Action Card
+    {
+        "card_id": "SD01-23",
+        "card_type": "Action",
+        "card_name": "Echoing Orchestra",
+        "card_chara": "Rover (Female)",
+        "card_rarity": "⭐",
+        "card_costlevel": "2",
+        "card_price": "1",
+        "card_image": "Card Database/SD01/SD01-23-1.webp",
+        "card_skill1": "[Leader Skill](This card can only be used by the designated character)",
+        "card_skill2": "[Resolution] When you win the battle, recover 5 life.",
+        "card_skill3": ""
+    },
+    //SD02
+    //SD02-01-3 Male Rover ⭐⭐⭐ Character Card
+    {
+        "card_id": "SD02-01",
+        "card_type": "Character",
+        "card_name": "Rover (Male)",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-01-3.webp",
+        "card_skill1": "[Leader][End of each turn] Draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-02-1  Male Rover ⭐ Character Card
+    {
+        "card_id": "SD02-02",
+        "card_type": "Character",
+        "card_name": "Rover (Male)",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-02-1.webp",
+        "card_skill1": "[Leader][Resolution] When you lose a battle using a green card to a red card, you can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-21-1  Male Rover ⭐ Character Card
+    {
+        "card_id": "BP01-21",
+        "card_type": "Character",
+        "card_name": "Rover (Male)",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/BP01-21-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a green card, reveal up to 2 cards from the top of your deck and add those cards to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-03-3 Sanhua ⭐⭐⭐ Character Card
+    {
+        "card_id": "SD02-03",
+        "card_type": "Character",
+        "card_name": "Sanhua",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-03-3.webp",
+        "card_skill1": "[Leader][End of each turn] Place the top 1 card of your deck into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-04-1 Sanhua ⭐ Character Card
+    {
+        "card_id": "SD02-04",
+        "card_type": "Character",
+        "card_name": "Sanhua",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-04-1.webp",
+        "card_skill1": "[Leader][Resolution] When you lose a battle using a blue card to a green card, you can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-33-1 Sanhua ⭐ Character Card
+    {
+        "card_id": "BP01-33",
+        "card_type": "Character",
+        "card_name": "Sanhua",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/BP01-33-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a blue card, you can place 1 card from the top of your deck into your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-05-3 Jinhsi ⭐⭐⭐ Character Card
+    {
+        "card_id": "SD02-05",
+        "card_type": "Character",
+        "card_name": "Jinhsi",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐⭐⭐",
+        "card_costlevel": "2",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-05-3.webp",
+        "card_skill1": "[Leader] Your red cards gain \"[Combo] This card gains +1 damage.\".",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-06-1 Jinhsi ⭐ Character Card
+    {
+        "card_id": "SD02-06",
+        "card_type": "Character",
+        "card_name": "Jinhsi",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-06-1.webp",
+        "card_skill1": "[Leader][Resolution] When you lose a battle using a red card to a blue card, you can reveal the top 1 card of your deck and add it to your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //BP01-30-1 Jinhsi ⭐ Character Card
+    {
+        "card_id": "BP01-30",
+        "card_type": "Character",
+        "card_name": "Jinhsi",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/BP01-30-1.webp",
+        "card_skill1": "[Leader][Battle] When you battle with a red card, deal 1 damage to your opponent.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-07-1 Jinhsi Basic Attack ⭐ Action Card
+    {
+        "card_id": "SD02-07",
+        "card_type": "Action",
+        "card_name": "Slash of Breaking Dawn - Basic Attack",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-07-1.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-08-1 Jinhsi Dodge Counter ⭐ Action Card
+    {
+        "card_id": "SD02-08",
+        "card_type": "Action",
+        "card_name": "Slash of Breaking DAwn - Dodge Counter",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-08-1.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-09-1 Jinhsi Intro Skill ⭐ Action Card
+    {
+        "card_id": "SD02-09",
+        "card_type": "Action",
+        "card_name": "Loong's Halo",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-09-1.webp",
+        "card_skill1": "[Combo] Switch your leader. If [Jinhsi] was switched, this card gains +2 damage.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-10-1 Jinhsi Forte Circuit ⭐ Action Card
+    {
+        "card_id": "SD02-10",
+        "card_type": "Action",
+        "card_name": "Incarnation",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-10-1.webp",
+        "card_skill1": "[Leader Skill][Battle] During this turn, your leader cannot be switched.",
+        "card_skill2": "[Resolution] When you win the battle, draw 3 cards, then [Follow-up 8].",
+        "card_skill3": ""
+    },
+    //SD02-11-1 Jinhsi Liberation ⭐ Action Card
+    {
+        "card_id": "SD02-11",
+        "card_type": "Action",
+        "card_name": "Purge of Light",
+        "card_chara": "Jinhsi",
+        "card_rarity": "⭐",
+        "card_costlevel": "3",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-11-1.webp",
+        "card_skill1": "[Leader Skill](This card can only be used by the designated character)",
+        "card_skill2": "[Combo] If your Action Area has 3 or more cards, this card gains +3 damage.",
+        "card_skill3": ""
+    },
+    //SD02-12-1 Sanhua Basic Attack ⭐ Action Card
+    {
+        "card_id": "SD02-12",
+        "card_type": "Action",
+        "card_name": "Frigid Light - Basic Attack",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-12-1.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-13-1 Sanhua Dodge ⭐ Action Card
+    {
+        "card_id": "SD02-13",
+        "card_type": "Action",
+        "card_name": "Frigid Light - Dodge",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-13-1.webp",
+        "card_skill1": "[Resolution] When you win a battle, [Follow-Up 2](During this turn, the number of times you can combo is increased by +2).",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-14-1 Sanhua Intro Skills ⭐ Action Card
+    {
+        "card_id": "SD02-14",
+        "card_type": "Action",
+        "card_name": "Silversnow",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-14-1.webp",
+        "card_skill1": "[Combo] Switch your leader. If [Sanhua] was switched, send 1 card from the top of your deck to your Resonance Area.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-15-1 Sanhua Resonance Skill ⭐ Action Card
+    {
+        "card_id": "SD02-15",
+        "card_type": "Action",
+        "card_name": "Eternal Frost",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-15-1.webp",
+        "card_skill1": "[Leader Skill](This card can only be used by the designated character)",
+        "card_skill2": "[Resolution] When you win a battle, send 2 cards from the top of your deck to your Resonance Area.",
+        "card_skill3": ""
+    },
+    //SD02-16-1 Sanhua Liberation ⭐ Action Card
+    {
+        "card_id": "SD02-16",
+        "card_type": "Action",
+        "card_name": "Glacial Gaze",
+        "card_chara": "Sanhua",
+        "card_rarity": "⭐",
+        "card_costlevel": "3",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-16-1.webp",
+        "card_skill1": "[Leader Skill](This card can only be used by the designated character)",
+        "card_skill2": "[Resolution] When you win a battle, during the next turn, your opponent cannot combo.",
+        "card_skill3": ""
+    },
+    //SD02-17-1 Male Rover Basic Attack ⭐ Action Card
+    {
+        "card_id": "SD02-17",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Basic Attack",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-17-1.webp",
+        "card_skill1": "",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-18-1 Male Rover Dodge ⭐ Action Card
+    {
+        "card_id": "SD02-17",
+        "card_type": "Action",
+        "card_name": "Vibration Manifestation - Dodge",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-18-1.webp",
+        "card_skill1": "[Resolution]When you win the battle, draw 1 card, then discard 1 card from your hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-19-1 Male Rover Intro Skill ⭐ Action Card
+    {
+        "card_id": "SD02-19",
+        "card_type": "Action",
+        "card_name": "Waveshock",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-19-1.webp",
+        "card_skill1": "[Combo] Switch your leader. If [Rover (Male)] was switched, draw 1 card.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-20-1 Male Rover Terminal Module ⭐ Action Card
+    {
+        "card_id": "SD02-20",
+        "card_type": "Action",
+        "card_name": "Scan",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "0",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-20-1.webp",
+        "card_skill1": "[Resolution] When you win a battle, draw 1 card, then look at your opponent's hand.",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-21-1 Male Rover Terminal Module ⭐ Action Card
+    {
+        "card_id": "SD02-21",
+        "card_type": "Action",
+        "card_name": "Grappling Hook",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-21-1.webp",
+        "card_skill1": "[Resolution] When you win a battle, [Follow-Up 2](During this turn, the number of times you can combo is increased by +2).",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-22-1 Male Rover Resonance Skill ⭐ Action Card
+    {
+        "card_id": "SD02-22",
+        "card_type": "Action",
+        "card_name": "Resonating Slashes",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "1",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-22-1.webp",
+        "card_skill1": "[Leader Skill] (This card can only be used when your Leader is the specified character)",
+        "card_skill2": "",
+        "card_skill3": ""
+    },
+    //SD02-23-1 Male Rover Liberation ⭐ Action Card
+    {
+        "card_id": "SD02-23",
+        "card_type": "Action",
+        "card_name": "Echoing Orchestra",
+        "card_chara": "Rover (Male)",
+        "card_rarity": "⭐",
+        "card_costlevel": "3",
+        "card_price": "1",
+        "card_image": "Card Database/SD02/SD02-23-1.webp",
+        "card_skill1": "[Leader Skill] (This card can only be used when your Leader is the specified character)",
+        "card_skill2": "",
+        "card_skill3": ""
+    }
+]
