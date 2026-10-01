@@ -1,4 +1,17 @@
-﻿credentials.json
+﻿# Python back-end and local tools
+dashboard.py
+import_inventory.py
+reciept_viewer.py
+test_request.py
+app.py
+*.spec
+dist/
+build/
+cards/
+Card Database/
+cards.jsonc
+
+# Databases and credentials
 aemy_master.db
+credentials.json
 .DS_Store
-node_modules/
