@@ -1,4 +1,4 @@
-﻿# Python back-end and local tools
+﻿# Exclude Python backend scripts & local databases
 dashboard.py
 import_inventory.py
 reciept_viewer.py
@@ -7,11 +7,8 @@ app.py
 *.spec
 dist/
 build/
-cards/
-Card Database/
-cards.jsonc
-
-# Databases and credentials
 aemy_master.db
 credentials.json
 .DS_Store
+
+# Note: cards.jsonc and Card Database are intentionally left out so they stay tracked and visible on GitHub!
