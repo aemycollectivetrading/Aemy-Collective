@@ -46,22 +46,37 @@ async function loadInventoryAndCards() {
                 skill3: "Flow State - Gain 1 energy."
             },
             {
-                id: "BP01-01",
-                name: "Camellya",
+                id: "BP01-02",
+                name: "Rover (Female)",
                 type: "Character",
-                character: "Camellya",
+                character: "Rover",
                 rarity: "⭐⭐⭐⭐",
                 cost: 3,
                 stock: 5,
-                price: 20.00,
+                price: 25.00,
                 imageUrl: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300",
-                skill1: "Blossom Slash - Deals 3 damage.",
-                skill2: "Crimson Waltz - Empower next attack.",
-                skill3: "Flow State - Gain 1 energy."
+                skill1: "Resonance Strike - Deals 2 damage.",
+                skill2: "Spectro Burst - Gain energy.",
+                skill3: "Flow State - Draw 1 card."
+            },
+            {
+                id: "BP01-03",
+                name: "Rover (Male)",
+                type: "Character",
+                character: "Rover",
+                rarity: "⭐⭐⭐⭐",
+                cost: 3,
+                stock: 3,
+                price: 25.00,
+                imageUrl: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300",
+                skill1: "Resonance Strike - Deals 2 damage.",
+                skill2: "Spectro Burst - Gain energy.",
+                skill3: "Flow State - Draw 1 card."
             }
         ];
     }
 
+    updateSearchSuggestions();
     renderCatalog(allCards);
 }
 
@@ -105,14 +120,57 @@ function renderCatalog(cards) {
     });
 }
 
+function setupEventListeners() {
+    const checkoutBtn = document.getElementById('checkout-btn');
+    if (checkoutBtn) {
+        checkoutBtn.addEventListener('click', processOrderSubmission);
+    }
+
+    const searchInput = document.getElementById('filter-chara');
+    if (searchInput) {
+        let datalist = document.getElementById('search-suggestions');
+        if (!datalist) {
+            datalist = document.createElement('datalist');
+            datalist.id = 'search-suggestions';
+            document.body.appendChild(datalist);
+            searchInput.setAttribute('list', 'search-suggestions');
+        }
+    }
+}
+
+function updateSearchSuggestions() {
+    const datalist = document.getElementById('search-suggestions');
+    if (!datalist) return;
+    
+    datalist.innerHTML = '';
+    
+    const suggestions = new Set();
+    allCards.forEach(card => {
+        if (card.name) suggestions.add(card.name);
+        if (card.character) suggestions.add(card.character);
+        if (card.id) suggestions.add(card.id);
+    });
+
+    suggestions.forEach(item => {
+        const option = document.createElement('option');
+        option.value = item;
+        datalist.appendChild(option);
+    });
+}
+
 function applyFilters() {
-    const charaQuery = document.getElementById('filter-chara').value.toLowerCase();
+    const query = document.getElementById('filter-chara').value.toLowerCase().trim();
     const typeQuery = document.getElementById('filter-type').value;
 
     const filtered = allCards.filter(card => {
-        const matchChara = card.name.toLowerCase().includes(charaQuery) || (card.character && card.character.toLowerCase().includes(charaQuery));
+        const nameMatch = card.name && card.name.toLowerCase().includes(query);
+        const charaMatch = card.character && card.character.toLowerCase().includes(query);
+        const idMatch = card.id && card.id.toLowerCase().includes(query);
+        
+        const matchQuery = query === "" || nameMatch || charaMatch || idMatch;
         const matchType = typeQuery === "" || card.type === typeQuery;
-        return matchChara && matchType;
+
+        return matchQuery && matchType;
     });
 
     renderCatalog(filtered);
@@ -269,13 +327,6 @@ function openCardModal(card) {
 
 function closeCardModal() {
     document.getElementById('card-modal').style.display = 'none';
-}
-
-function setupEventListeners() {
-    const checkoutBtn = document.getElementById('checkout-btn');
-    if (checkoutBtn) {
-        checkoutBtn.addEventListener('click', processOrderSubmission);
-    }
 }
 
 function processOrderSubmission() {
